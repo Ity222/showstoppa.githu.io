@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Index</title>
+
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+        width: 100%;
+        height: 50%;
+        border-radius: 15px;
+        margin-top: 200px;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+      }
+
+      .swiper-wrapper{
+
+        margin-top: -30px;
+      }
+
+      .swiper-slide h3{
+       
+       
+       font-size: 20px;
+       left: -20px;
+       margin-top: -280px;
+     }
+    </style>
+</head>
+<body>
+
+    <header>
+
+       
+        <div class="logo">Show stoppa</div>
+
+<div class="hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+   
+
+    <nav class ="nav-bar">
+
+        <ul>
+            <li>
+            <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="services.html">Services </a>
+            </li>
+            <li>
+                <a href="products.html"class="active">Products</a>
+            </li><li>
+                <a href="contact.html">Contact </a>
+            </li>
+
+
+    </ul>
+    </nav>
+</header>
+
+<section class="contproducts">
+ 
+
+    
+</section>
+
+<div class="services"><br><br><br>
+  <span class ="text1">Best Seller  </span>
+  <div class="line1"></div>
+
+</div>
+<div class="products">
+
+  
+</div>
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    
+   <div class="swiper-slide"><h3>Product</h3><img src="img/skin/1.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>Product</h3><img src="img/skin/10.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>Product</h3><img src="img/skin/11.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>Product </h3><img src="img/skin/12.jpg" alt=""></div> 
+      <div class="swiper-slide"><h3>Product</h3><img src="img/skin/3.jpg" alt=""></div>
+    </div>
+
+  </div>
+
+  <div class="services"><br>
+    <span class ="text1">New in the block  </span>
+    <div class="line1"></div>
+  
+  </div>
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    
+   <div class="swiper-slide"><h3>Product</h3><img src="img/skin/1.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>Product</h3><img src="img/skin/10.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>Product</h3><img src="img/skin/11.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>Product </h3><img src="img/skin/12.jpg" alt=""></div> 
+      <div class="swiper-slide"><h3>Product</h3><img src="img/skin/3.jpg" alt=""></div>
+   
+    </div>
+
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    
+  });
+</script>
+
+
+
+<script>
+  hamburger = document.querySelector(".hamburger");
+  hamburger.onclick =function(){
+
+    navBar =document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
+  }
+</script>
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 5,
+        spaceBetween: 50,
+      },
+    },
+    
+  });
+</script>
+
+
+<script>
+  hamburger = document.querySelector(".hamburger");
+  hamburger.onclick =function(){
+
+    navBar =document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
+  }
+</script>
+
+<footer class="footer">
+    <div class="container-footer">
+        <div class="row-footer">
+            <div class="col-footer">
+                <h4>Company</h4>
+                <div class="list">
+                
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Our services </a></li>
+                    <li><a href="contact.html">Contact</a></li>
+              
+              </div>
+            </div>
+            <div class="col-footer">
+              <div class="list">
+
+              
+                <h4>Get help</h4>
+                
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    
+                  </div>
+            </div>
+            <div class="col-footer">
+                <h4>Follow us</h4>
+                <div class="soci">
+                    <a href="#"><i class ="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class ="fab fa-twitter"></i></a>
+                    <a href="#"><i class ="fab fa-instagram"></i></a>
+                    <a href="#"><i class ="fab fa-linkedin"></i></a>
+
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Index</title>
+
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+     
+  
+      .swiper {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+  margin-top: 240px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+  
+ 
+    </style>
+</head>
+<body>
+
+    <header>
+
+       
+        <div class="logo">Show stoppa</div>
+
+<div class="hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+   
+
+    <nav class ="nav-bar">
+
+        <ul>
+            <li>
+            <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="services.html">Services </a>
+            </li>
+            <li>
+                <a href="products.html">Products</a>
+            </li><li>
+                <a href="contact.html">Contact </a>
+            </li>
+
+
+    </ul>
+    </nav>
+</header>
+
+<section class="cont">
+ 
+    <div class="textcont">
+      We empower you with confidence through healthy, radiant skin    </div>
+
+    
+  </section>
+
+  <div class="services">
+    <span class ="text1">Beauty and Skincare </span>
+    <div class="line1"></div>
+
+</div>
+<div class="aboutText">
+    <p>We are a premier destination for all your beauty needs, specializing in makeup artistry, hair installations, nail services, skincare treatments, and a curated selection of high-quality beauty items. 
+        Our mission is to empower individuals to express their unique beauty through a range of personalized services and carefully curated products.</p>
+    
+        <div class="imgagesfirstcare">
+          <img src="img/Makeup-Cosmetics-PNG-Download-Image.png" alt="">
+          <img src="img/manicureAndPedicure.jpg" alt="Italian Trulli">
+          <img src="img/10730151EA-checkers515Wx515H.png" alt="">
+        </div>
+        
+</div>
+
+<div class="aboutcontainer">
+  At Showstoppa ,we believe that beauty is more than just 
+      skin deep—it's about feeling confident in your own
+       skin. Our passion lies in empowering individuals to
+        embrace their unique beauty through top-notch skincare.From daily skincare routines to long-term treatment plans, our experts will work closely with you to create a customized approach that fits your lifestyle and preferences.
+<div class="imgagesKin">
+
+  <img src="img/step1.jpg" alt="">
+  <img src="img/step2.jpeg" alt="">
+  <img src="img/tt.jpg" alt="">
+</div>
+
+      </div>
+<section class="cont2">
+  
+</section>
+
+   
+<div class="servicesc">
+  <span class ="text1">Our services    </span>
+  <div class="line1"></div>
+
+</div>
+
+
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    
+   <div class="swiper-slide"><h3>Beauty products</h3><img src="img/skin.webp" alt=""></div>
+    <div class="swiper-slide"><h3>Skincare and beauty</h3><img src="img/ins.png" alt=""></div>
+    <div class="swiper-slide"><h3>Weaves and installation</h3><img src="img/nailcare.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>Manicure and pedecure </h3><img src="img/beauty.jpg" alt=""> 
+   </div>
+
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop:true,
+     autoplay: {
+        delay: 1800,
+        disableOnInteraction: false,
+      },
+    
+  });
+</script>
+
+
+
+<script>
+  hamburger = document.querySelector(".hamburger");
+  hamburger.onclick =function(){
+
+    navBar =document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
+  }
+</script>
+
+
+<footer class="footer">
+  <div class="container-footer">
+      <div class="row-footer">
+          <div class="col-footer">
+              <h4>Company</h4>
+              <div class="list">
+              
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="services.html">Our services </a></li>
+                  <li><a href="contact.html">Contact</a></li>
+            
+            </div>
+          </div>
+          <div class="col-footer">
+            <div class="list">
+
+            
+              <h4>Get help</h4>
+              
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="contact.html">Contact us</a></li>
+                  
+                </div>
+          </div>
+          <div class="col-footer">
+              <h4>Follow us</h4>
+              <div class="soci">
+                  <a href="#"><i class ="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class ="fab fa-twitter"></i></a>
+                  <a href="#"><i class ="fab fa-instagram"></i></a>
+                  <a href="#"><i class ="fab fa-linkedin"></i></a>
+
+              </div>
+                  
+          </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>

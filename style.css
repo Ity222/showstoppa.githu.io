@@ -1,0 +1,2394 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Google Sans Reqular";
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background: #fff;
+
+}
+
+header{
+
+    width: 100%;
+    height: 80px;
+    background: rgb(44, 35, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    opacity: 0.7;
+    position: fixed;
+
+}
+
+.logo{
+
+
+}
+
+
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: #fff;
+   
+    columns: white;
+    font-size: 20px;
+    padding : 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+
+
+}
+
+.nav-bar ul li a:hover{
+  color: black;  
+  background:#fff;
+}
+
+.nav-bar ul li a.active {
+
+    color: black;
+    background: #fff;
+
+}
+
+
+
+.aboutText p{
+ margin-top: 110px;
+
+}
+
+
+.makeup{
+
+    background-size:cover;
+    display: flex;
+    height: 200px;
+    margin-top: auto;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    margin-left: -180px;
+}
+
+.hair{
+    background-size:cover;
+    display: flex;
+    height: 200px;
+    margin-top: -280px;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    margin-left: 140px;
+
+}
+
+.nails{
+    background-size:cover;
+    display: flex;
+    height: 200px;
+    margin-top: -290px;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    margin-left: 520px;
+
+}
+
+.weave{
+    background-size:cover;
+    display: flex;
+    height: 200px;
+    margin-top: -290px;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    margin-left: 800px;
+
+}
+
+.cont{
+    background: url('img/R\ \(2\).jpeg');
+    background-size:cover;
+     display: flex;
+     height: 500px;
+     justify-content: center;
+     flex-wrap: wrap;
+     box-shadow: 0 5px 15px rgb(117, 117, 117);
+     margin-top: auto;
+     background-attachment: fixed;
+     margin-bottom: inherit;
+     
+ 
+  }
+
+  .contabout{
+
+    background: url('img/portrait-diverse-group-beautiful-women_146508-6883.webp');
+    background-size:cover;
+     display: flex;
+     height: 500px;
+     justify-content: center;
+     flex-wrap: wrap;
+     box-shadow: 0 5px 15px rgb(117, 117, 117);
+     margin-top: auto;
+     background-attachment: fixed;
+     margin-bottom: inherit;
+  }
+
+  .contContact{
+    background: url('img/R\ \(4\).jpeg');
+    background-size:cover;
+     display: flex;
+     height: 500px;
+     justify-content: center;
+     flex-wrap: wrap;
+     box-shadow: 0 5px 15px rgb(117, 117, 117);
+     margin-top: auto;
+     background-attachment: fixed;
+     margin-bottom: inherit;
+  }
+  .contproducts{
+    background: url('img/shutterstock_265178501.webp');
+    background-size:cover;
+     display: flex;
+     height: 500px;
+     justify-content: center;
+     flex-wrap: wrap;
+     box-shadow: 0 5px 15px rgb(117, 117, 117);
+     margin-top: auto;
+     background-attachment: fixed;
+     margin-bottom: inherit;
+  }
+  
+  .contservice{
+    background: url('img/sliderkbc.jpg');
+    background-size:cover;
+     display: flex;
+     height: 500px;
+     justify-content: center;
+     flex-wrap: wrap;
+     box-shadow: 0 5px 15px rgb(117, 117, 117);
+     margin-top: auto;
+     background-attachment: fixed;
+     margin-bottom: inherit;
+  }
+
+  .cont2{
+    background: url('img/applicable-for-any-skin-type-or-colour.jpg');
+    background-size:cover;
+     display: flex;
+     height: 300px;
+     justify-content: center;
+     flex-wrap: wrap;
+     box-shadow: 0 5px 15px rgb(117, 117, 117);
+     margin-top: 150px;
+     background-attachment: fixed;
+     margin-bottom: -25px;
+     
+ 
+  }
+
+
+  .aboutText{
+
+    width: 70%;
+   font-size: 20px;
+    margin-left: 20%;
+    text-align: center;
+    height: 30%;
+    
+  }
+
+.line1{
+
+    width: 470px;
+    height: 3px;
+    background-color: #ab3786;
+    margin-left: 500px;
+}
+  .textcont{
+
+    width:500px ;
+    height: auto;
+    color:#efe4f0;
+    margin: auto;
+    position: relative;
+    margin-left: 10px;
+    letter-spacing: 2.9px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 25%;
+  }
+
+  .containerSlide{
+    width: 100%;
+    height: 100vh;
+    background: rgb(241, 175, 214);
+  }
+
+  /*swiper*/
+
+  .swiper{
+    width: 80%;
+    height: fit-content;
+
+  }
+
+  .swiper-slide img{
+
+    width: 100%;
+    height: 1000px;
+
+  }
+  .swiper-slide h2{
+    text-align: center;
+    bottom:2px;
+  }
+
+  .seriviceHeading
+  {
+
+    text-align: center;
+  }
+
+  .headingskin{
+    height: 20%;
+    margin-top:10%;
+    border-radius: 5px;
+
+ text-align: center;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 20px ;
+    margin-top: 45px;
+
+  }
+
+  
+
+  .textskin{
+    width: 1500px;
+    display: flex;
+    margin-left:300px;
+    
+
+  }
+  
+  .textskin p{
+    width: 500px;
+    height: 150px;
+    padding :50px;
+    margin-top: -50px;
+    
+
+  }
+  .skincare{
+
+    width: 10px;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 300px;
+   
+   
+  }
+  .skincare img{
+
+    width: 500px;
+    height: 400px;
+    padding :50px;
+   
+   
+    
+    
+  }
+  .conSection{
+
+    height: 50%;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 18%;
+
+
+
+  }
+
+ 
+
+
+  .services
+{
+  
+  height: 10%;
+margin-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+position: absolute;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 100%;
+margin-bottom: -20px;
+
+  
+  
+}
+
+.servicesc
+{
+  background:#fff;
+  height: 10%;
+    margin-top:165px;
+    border-radius: 5px;
+    text-align: center;
+position: absolute;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 100%;
+  
+  
+}
+
+.btn:hover{
+
+    background: grey;
+}
+
+
+.services span{
+   color: #0e0d0d;
+   display: block;
+   
+}
+
+.text1
+
+{
+font-size: 60px;
+font-weight: 700;
+letter-spacing: 8px;
+margin-bottom: 20px ;
+animation: text 3s 1;
+
+
+}
+
+
+.services-conta{
+
+    display: flex; 
+    overflow-x:scroll;
+ 
+ 
+ 
+ }
+
+ .services-conta::-webkit-scrollbar{
+
+ display: none;
+ }
+ .service-carda{
+     
+    background: #f4e6e6;
+    width: 300px;
+    height:500px;
+    margin: 10px;
+    border-radius: 15px;
+    margin-top: 2%;
+    
+  
+    
+
+}
+
+.service-carda-image{
+    
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.service-carda p{
+    padding: 10px;
+}
+
+.service-carda h2{
+text-align: center;
+}
+
+.headingh2
+{
+margin-top: 00px;
+margin-left: 10px;
+    
+}
+
+.service-carda a{
+    background-color: rgb(242, 233, 242);
+    color: rgb(32, 32, 32);
+    padding: 15px 20px;
+    display: block;
+    text-align:center ;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.service-carda:hover{
+    background-color: #716e6e;
+    color: rgb(248, 247, 244);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+
+.services-cont{
+
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 15%;
+ 
+ 
+ 
+ }
+ 
+ .service-card{
+     
+     background: #f5f5f5;
+     width: 300px;
+     height:300px;
+     margin: 10px;
+     border-radius: 15px;
+     margin-top: 2%;
+ 
+ }
+ 
+ .service-card-image{
+    
+     height: 250px;
+     margin-bottom: 15px;
+     background-size: cover;
+     border-radius: 15px 15px 0 0;
+ }
+ 
+ .service-card p{
+     padding: 10px;
+ }
+ 
+
+ 
+ .service-card a{
+     background-color: #000;
+     color: wheat;
+     padding: 15px 20px;
+     display: block;
+     text-align:center ;
+     margin: 20px 50px;
+     text-decoration: none;
+ }
+ 
+ .service-card:hover{
+     background-color: #dbd1d1;
+     color: rgb(248, 247, 244);
+     cursor: pointer;
+     transform: scale(1.03);
+     transition: all 1s ease;
+ }
+
+
+ .car-1
+ {
+
+    background-image:url('img/serum.png') ;
+ }
+
+ .car-2{
+
+    background-image:url('img/ins.png');
+ }
+
+ .car-3{
+
+    background-image:url('img/nailcare.jpg');
+ }
+
+ .car-10{
+
+    background-image:url('img/Makeup-Cosmetics-PNG-Download-Image.png');
+ }
+
+ .car-11{
+
+    background-image:url('img//k-218-chim-00054.webp');
+ }
+ .car-4{
+
+    background-image:url('img/skin/1.jpg');
+ }
+
+ .car-5{
+
+    background-image:url('img/skin/10.jpg');
+ }
+ .car-6{
+
+    background-image:url('img/skin/11.jpg');
+ }
+
+ .car-7{
+
+    background-image:url('img/skin/12.jpg');
+ }
+
+ .car-8{
+
+    background-image:url('img/skin/3.jpg');
+ }
+
+ .contair{
+    
+    background: #f5e6f6;  
+    width: 30%; 
+    height:500px;
+    margin-left: 10%;
+   text-align: center;
+   margin-top: 10%;
+   margin-bottom: 20%;
+   border-radius: 10px;
+   border: 1px solid rgba(255,255,255,0.18) ;
+   box-shadow: 0 8px 32px 0 rgba(0,0,0.37) ;
+    
+}
+
+.map iframe{
+
+    margin-left: 45%;
+   width: 30%;
+   margin-top: -4000px;
+   height: 90;
+  
+   
+
+}
+
+.ma1{
+    margin-top: -20%;
+    height: 100%;
+}
+
+.contact-form i.fa{
+    font-size: 20px;
+    padding: 3%;
+    background-color: none;
+    cursor: pointer;
+    margin: 2%;
+    border: 2px solid #9a9a7f;
+    color: #9a9a7f;
+    border-radius: 80%;
+
+}
+
+.contact-form i.fa:hover{
+  cursor: pointer;  
+  border: 2px solid #211f1f;
+  color: #3a3737;
+}
+
+
+.social-links i.fab{
+
+    font-size: 20px;
+    padding: 3%;
+    background-color: none;
+    cursor: pointer;
+    margin: 2%;
+    border: 2px solid #9a9a7f;
+    color: #9a9a7f;
+    border-radius: 80%;
+}
+
+.social-links i.fab:hover{
+    cursor: pointer;  
+    border: 2px solid #211f1f;
+    color: #3a3737;
+  }
+
+.rectangle{
+    position:absolute;
+    left: 48%;
+    top: 47%;
+    transform: translate(-50%,-50%) skew(15deg);
+    width: 730px;
+    height: 47%;
+    background: #ffffff;
+    opacity:0.8;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.18) ;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0.37) ;
+
+}
+
+
+ .swiper-slide h3{
+    color: #553156;
+    margin-top: -290px;
+    width: 100%;
+    display: flex;
+    margin-left: -340px;
+    font-size: 25px;
+ }
+
+ .imgagesfirstcare img{
+   
+    width: 290px;
+    height: 230px;
+    margin-top: 20px;
+    padding: 10px;
+ }
+.aboutcontainer img{
+
+    border-radius: 700px;
+    width: 290px;
+    height: 230px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.aboutcontainer
+{
+
+
+ margin-top: 150px;
+ width: 80%;
+ width: 70%;
+ font-size: 20px;
+  margin-left: 20%;
+  text-align: center;
+  height: 30%;
+}
+
+ .about{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -20%;;
+}
+
+.about p{
+
+   font-size: 18px;
+}
+.about-content h1:after{
+    
+        position: absolute;
+        top:10%;
+        left: 0%;
+        content: " ";
+        height: 5px;
+        width: 14%;
+        background-color: #bda30d;
+        transition: 0.5s;
+        
+       
+}
+
+.bx{
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top:25%;
+}
+
+.about-image{
+
+    flex:1;
+    margin-right: 40px; 
+    overflow: hidden;
+    animation: fadeInRight 2s ease;
+}
+
+.about-image img{
+    max-width: 100%;
+    height: 120%;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image:hover img{
+    transform:scale(1.2);
+}
+.about-content{
+    flex:1;
+    margin-left: -290px;
+}
+
+.about-content h1{
+
+    font-size: 23px;
+   margin-bottom: 15px;
+   color: #000;
+   margin-left: -50px;
+}
+
+.about-content p{
+
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    margin-left: -500px;
+    width: 100%;
+
+}
+
+
+
+
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+  .container-footer{
+    max-width: 1170px;
+    margin: auto;
+  
+  }
+  .footer{
+      background-color:rgb(68, 51, 68);
+      padding: 70px 0;
+     height: auto;
+     margin-top:inherit;
+    
+  
+     
+  }
+  .row-footer{
+     display: flex; 
+     flex-wrap:wrap ;
+  }
+  .col-footer{
+    width:25%;
+    padding: 0 15px;
+  }
+  
+  .col-footer h4{
+      font-size: 25px;
+      color: #fff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 5000;
+      position: relative;
+  }
+  
+  .col-footer h4::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      background-color: #997c07;
+      height: 2px;
+      box-sizing: border-box;
+      width: 70px;
+  
+  }
+  
+  .col-footer ul li{
+  
+      margin-bottom: 10px;
+  
+  }
+  
+  .col-footer .list li a{
+     font-size: 18px; 
+     color: #181818;
+     text-decoration: none;
+     font-weight: 300;
+     color: rgb(252, 250, 248);
+     display: block;
+     transition: all 0.3s ease;
+  }
+  
+  .col-footer .list li a:hover{
+  columns: rgb(77, 76, 59);
+  padding-left: 8px;
+  }
+  
+  
+  
+  /*links social*/
+  .col-footer .soci a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(109, 105, 105, 0.966);
+  margin-right: 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.3s ease;
+  
+  }
+  
+  
+  .col-footer .soci a:hover{
+  color: rgba(41, 39, 39, 0.2);
+  background-color: #fff;
+  }
+
+
+
+
+  @media only screen and (max-width:1320px){
+
+    header{
+        padding: 0 50px;
+    }
+
+       /*main page*/
+
+       .services
+       {
+         
+         height:8%;
+         margin-top: 50px;
+         
+       }
+   
+       .text1
+   
+         {
+           font-size: 30px;
+           font-weight: 700;
+           letter-spacing: 8px;
+           margin-bottom: 20px ;
+   
+       }
+   
+       .aboutText p{
+           margin-top: 101px;
+           font-size: 19px;
+          
+          }
+   
+          .imgagesfirstcare img{
+      
+           width: 200px;
+           height: 150px;
+           margin-top: 20px;
+           padding: 3px;
+           margin-left: -70px;
+        }
+   
+        .aboutcontainer
+       {
+   
+     
+           margin-top: 120px;
+           font-size: 18px;
+     
+         }
+   
+         .aboutcontainer img{
+   
+           width: 204px;
+           height: 210px;
+           margin-top: 20px;
+           margin-left: -70px;
+           padding:40px;
+           border-radius: 50%;
+       }
+       .services-conta{
+   
+         width: 100%;
+       }
+   
+       .contentsec{
+   
+         width: 40%;
+       }
+       .contservice{
+   
+           
+           height: 300px;
+           object-fit: cover;
+       }
+   
+       .cont{
+          
+         background: url('img/R\ smail\ \(2\).jpeg');
+            height: 300px;
+            object-fit:fill;
+            
+         }
+         .swiper-slide{
+            width: 100%;
+   
+         }
+   
+         .textcont{
+   
+           width:200px ;
+           font-size: 14px;
+           margin-top: 40%;
+         }
+   
+         
+   
+         /*about page*/
+   
+         .about p{
+   
+           font-size: 15px;
+           margin-top: 65px;
+        }
+   
+   
+        .about-image img{
+          width: 1000px;
+           height: 160px;
+           display: block;
+           margin-left: -11px;
+          
+           
+       }
+   
+      .about-content{
+       font-size: 15px;
+       margin-top: 2px;
+       margin-left: 8px;
+      }
+        .about-content h1{
+            
+                position: absolute;
+                top:108%;
+                font-size: 15px;
+                
+                
+               
+        }
+   
+        .col-footer h4{
+           font-size: 21px;
+        }
+   
+        .col-footer .list li a{
+   
+           font-size: 18px;;
+        }
+   
+        .line1{
+   
+           width: 240px;
+           height: 3px;
+           background-color: #ab3786;
+           margin-left: 170px;
+       }
+   
+       .swiper-slide img {
+           display: block;
+           width: 100%;
+           height: 40%;
+           object-fit: cover;
+         }
+   
+         .swiper-slide h3{
+          
+          
+           font-size: 18px;
+           left: -20px;
+          top: 100px;
+         }
+   
+       
+         /*service*/
+   
+         .service-carda{
+        
+           background: #f4e6e6;
+           width: 300px;
+           height:500px;
+           margin: 10px;
+           border-radius: 15px;
+           margin-top: 2%;
+           
+         
+           
+       
+       }
+       
+       .service-carda-image{
+           
+           height: 180px;
+           margin-bottom: 15px;
+          
+           
+       }
+       
+       .service-carda p{
+           padding: 10px;
+           font-size: 13px;
+       }
+       
+       .service-carda h2{
+       font-size: 18px;
+       }
+   
+       .service-carda{
+        
+           
+           width: 180px;
+           height:400px;
+           margin: 10px;
+           border-radius: 15px;
+           margin-top: 2%;
+           
+       
+       }
+   
+       .skincare{
+   
+           width: 10px;
+           display: flex;
+           margin-top: -50px;
+           margin-left: 00px;
+          
+          
+         }
+   
+   
+   .skincare img{
+   
+     width: 300px;
+     height: 300px;
+     padding :50px;
+    margin-left: 10px;
+    
+     
+     
+   }
+   .textskin{
+       width: 600px;
+       margin-left:0px;
+       
+   
+     }
+     
+     .textskin p{
+       width: 500px;
+       height: 150px;
+       padding :10px;
+       margin-top: -50px;
+       
+   
+     }
+   
+     .headingskin{
+       font-size: 18px;
+       margin-left: 15px;
+     }
+   
+     /*product*/
+   
+     .contproducts{
+     
+        height: 300px;
+     
+      
+     }
+
+     /*contact*/
+     .contair{
+    
+      
+      width: 50%; 
+      height:370px;
+      margin-left: 2%;
+     text-align: center;
+     margin-top: 199px;
+    
+  }
+  
+  .map iframe{
+  
+    margin-left: 55%;
+     width: 40%;
+     margin-top: -4000px;
+     height: 380px;
+     
+
+
+    
+     
+  
+  }
+
+  
+  
+  .ma1{
+      margin-top: -20%;
+      height: 100%;
+  }
+  
+  .contact-form i.fa{
+      font-size: 12px;
+      
+  }
+  
+  
+  
+  
+  .social-links i.fab{
+  
+      font-size: 12px;
+   
+  }
+  
+  .social-links i.fab:hover{
+      cursor: pointer;  
+      border: 2px solid #211f1f;
+      color: #3a3737;
+    }
+  
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:1270px){
+
+    header{
+        padding: 0 30px;
+    }
+
+    .services
+    {
+      
+      height:8%;
+      margin-top: 60px;
+    }
+
+    .text1
+
+      {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 20px ;
+
+    }
+
+    .aboutText p{
+        margin-top: 106px;
+        font-size: 19px;
+       
+       }
+
+       .imgagesfirstcare img{
+   
+        width: 260px;
+        height: 180px;
+        margin-top: 20px;
+        padding: 3px;
+        margin-left: -40px;
+     }
+
+     .aboutcontainer
+    {
+
+  
+        margin-top: 120px;
+        font-size: 18px;
+  
+      }
+
+      .aboutcontainer img{
+
+        width: 260px;
+        height: 220px;
+        margin-top: 20px;
+        margin-left: -40px;
+        padding:18px;
+    }
+    .services-conta{
+
+      width: 100%;
+    }
+
+    .contentsec{
+
+      width: 40%;
+    }
+    .contservice{
+
+        
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .cont{
+       
+      background: url('img/R\ smail\ \(2\).jpeg');
+         height: 500px;
+         object-fit:fill;
+        
+      }
+      .swiper-slide{
+         width: 100%;
+
+      }
+
+      .textcont{
+
+        width:200px ;
+        font-size: 14px;
+        margin-top:20%;
+      }
+
+      
+
+      /*about page*/
+
+      .about p{
+
+        font-size: 19px;
+        margin-top: 65px;
+     }
+
+
+     .about-image img{
+       width: 1000px;
+        height: 280px;
+        display: block;
+        margin-left: -11px;
+       
+        
+    }
+
+   .about-content{
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 8px;
+   }
+     .about-content h1{
+         
+             position: absolute;
+             top:112%;
+             font-size: 20px;
+             
+             
+            
+     }
+
+     .col-footer h4{
+        font-size: 21px;
+     }
+
+     .col-footer .list li a{
+
+        font-size: 16px;;
+     }
+
+     .line1{
+
+        width: 240px;
+        height: 3px;
+        background-color: #ab3786;
+        margin-left: 460px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        margin-top: 15px;
+      }
+
+      .swiper-slide h3{
+       
+       
+        font-size: 20px;
+        left: -20px;
+        margin-top: -260px;
+      }
+
+    
+      /*service*/
+
+      .service-carda{
+     
+        background: #f4e6e6;
+        width: 300px;
+        height:500px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+      
+        
+    
+    }
+    
+    .service-carda-image{
+        
+        height: 180px;
+        margin-bottom: 15px;
+       
+        
+    }
+    
+    .service-carda p{
+        padding: 10px;
+        font-size: 13px;
+    }
+    
+    .service-carda h2{
+    font-size: 18px;
+    }
+
+    .service-carda{
+     
+        
+        width: 180px;
+        height:400px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+    
+    }
+
+    .skincare{
+
+        width: 10px;
+        display: flex;
+        margin-top: -50px;
+        margin-left: 170px;
+       
+       
+      }
+
+
+.skincare img{
+
+  width: 400px;
+  height: 300px;
+  padding :50px;
+ margin-left: 10px;
+ 
+  
+  
+}
+.textskin{
+    width: 800px;
+    margin-left:220px;
+    
+
+  }
+  
+  .textskin p{
+    width: 500px;
+    height: 150px;
+    padding :10px;
+    margin-top: -50px;
+    
+
+  }
+
+  .headingskin{
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  /*product*/
+
+  .contproducts{
+  
+     height: 300px;
+  
+   
+  }
+
+  .contair{
+    
+      
+    width: 30%; 
+    height:420px;
+    margin-left: 5%;
+   text-align: center;
+   margin-top: 250px;
+  
+}
+
+.map iframe{
+
+  margin-left: 55%;
+   width: 40%;
+   margin-top: -4000px;
+   height: 380px;
+   
+
+}
+
+
+
+.ma1{
+    margin-top: -20%;
+    height: 100%;
+}
+
+.contact-form i.fa{
+    font-size: 18px;
+    
+}
+
+
+
+
+.social-links i.fab{
+
+    font-size: 19px;
+ 
+}
+
+.social-links i.fab:hover{
+    cursor: pointer;  
+    border: 2px solid #211f1f;
+    color: #3a3737;
+  }
+
+}
+
+
+@media only screen and (max-width:1100px){
+
+  header{
+      padding: 0 30px;
+  }
+
+  .services
+  {
+    
+    height:8%;
+    margin-top: 60px;
+  }
+
+  .text1
+
+    {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 8px;
+      margin-bottom: 20px ;
+
+  }
+
+  .aboutText p{
+      margin-top: 106px;
+      font-size: 19px;
+     
+     }
+
+     .imgagesfirstcare img{
+ 
+      width: 260px;
+      height: 180px;
+      margin-top: 20px;
+      padding: 3px;
+      margin-left: -40px;
+   }
+
+   .aboutcontainer
+  {
+
+
+      margin-top: 120px;
+      font-size: 18px;
+
+    }
+
+    .aboutcontainer img{
+
+      width: 260px;
+      height: 220px;
+      margin-top: 20px;
+      margin-left: -40px;
+      padding:18px;
+  }
+  .services-conta{
+
+    width: 100%;
+  }
+
+  .contentsec{
+
+    width: 40%;
+  }
+  .contservice{
+
+      
+      height: 300px;
+      object-fit: cover;
+  }
+
+  .cont{
+     
+    background: url('img/R\ smail\ \(2\).jpeg');
+       height: 300px;
+       object-fit:fill;
+       
+    }
+    .swiper-slide{
+       width: 100%;
+
+    }
+
+    .textcont{
+
+      width:200px ;
+      font-size: 14px;
+      margin-top:23%;
+    }
+
+    
+
+    /*about page*/
+
+    .about p{
+
+      font-size: 19px;
+      margin-top: 65px;
+   }
+
+
+   .about-image img{
+     width: 1000px;
+      height: 280px;
+      display: block;
+      margin-left: -11px;
+     
+      
+  }
+
+ .about-content{
+  font-size: 15px;
+  margin-top: 2px;
+  margin-left: 8px;
+ }
+   .about-content h1{
+       
+           position: absolute;
+           top:112%;
+           font-size: 20px;
+           
+           
+          
+   }
+
+   .col-footer h4{
+      font-size: 21px;
+   }
+
+   .col-footer .list li a{
+
+      font-size: 16px;;
+   }
+
+   .line1{
+
+      width: 240px;
+      height: 3px;
+      background-color: #ab3786;
+      margin-left: 360px;
+  }
+
+  .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 40%;
+      object-fit: cover;
+    }
+
+    .swiper-slide h3{
+     
+     
+      font-size: 20px;
+        left: -20px;
+        margin-top: -260px;
+    }
+
+  
+    /*service*/
+
+    .service-carda{
+   
+      background: #f4e6e6;
+      width: 300px;
+      height:500px;
+      margin: 10px;
+      border-radius: 15px;
+      margin-top: 2%;
+      
+    
+      
+  
+  }
+  
+  .service-carda-image{
+      
+      height: 180px;
+      margin-bottom: 15px;
+     
+      
+  }
+  
+  .service-carda p{
+      padding: 10px;
+      font-size: 13px;
+  }
+  
+  .service-carda h2{
+  font-size: 18px;
+  }
+
+  .service-carda{
+   
+      
+      width: 180px;
+      height:400px;
+      margin: 10px;
+      border-radius: 15px;
+      margin-top: 2%;
+      
+  
+  }
+
+  .skincare{
+
+      width: 10px;
+      display: flex;
+      margin-top: -50px;
+      margin-left: 170px;
+     
+     
+    }
+
+
+.skincare img{
+
+width: 400px;
+height: 300px;
+padding :50px;
+margin-left: 10px;
+
+
+
+}
+.textskin{
+  width: 800px;
+  margin-left:220px;
+  
+
+}
+
+.textskin p{
+  width: 500px;
+  height: 150px;
+  padding :10px;
+  margin-top: -50px;
+  
+
+}
+
+.headingskin{
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+/*product*/
+
+.contproducts{
+
+   height: 300px;
+
+ 
+}
+
+.contair{
+  
+    
+  width: 30%; 
+  height:390px;
+  margin-left: 5%;
+ text-align: center;
+ margin-top: 199px;
+
+}
+
+.map iframe{
+
+margin-left: 55%;
+ width: 40%;
+ margin-top: -4000px;
+ height: 380px;
+ 
+
+}
+
+
+
+.ma1{
+  margin-top: -20%;
+  height: 100%;
+}
+
+.contact-form i.fa{
+  font-size: 18px;
+  
+}
+
+
+
+
+.social-links i.fab{
+
+  font-size: 19px;
+
+}
+
+.social-links i.fab:hover{
+  cursor: pointer;  
+  border: 2px solid #211f1f;
+  color: #3a3737;
+}
+
+}
+
+@media only screen and (max-width:900px){
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+
+    .nav-bar {
+        height: 0px;
+       position: absolute;
+       top: 80px;
+       left: 0;
+       right: 0;
+       width: 100vw;
+       background: rgb(62, 40, 62);
+       transition: 0.2s;
+       overflow: hidden;
+
+    }
+
+    .nav-bar.active{
+        height: 450px;
+    }
+
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition:0.5s ;
+        opacity: 0;
+
+    }
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+
+    .nav-bar ul li a{
+        margin-bottom: 12px;
+    }
+
+
+    header{
+      padding: 0 30px;
+  }
+
+  .services
+  {
+    
+    height:8%;
+    margin-top: 60px;
+  }
+
+  .text1
+
+    {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 8px;
+      margin-bottom: 20px ;
+
+  }
+
+  .aboutText p{
+      margin-top: 106px;
+      font-size: 19px;
+     
+     }
+
+     .imgagesfirstcare img{
+ 
+      width: 220px;
+      height: 160px;
+      margin-top: 20px;
+      padding: 3px;
+      margin-left: -20px;
+   }
+
+   .aboutcontainer
+  {
+
+
+      margin-top: 120px;
+      font-size: 18px;
+
+    }
+
+    .aboutcontainer img{
+
+      width: 240px;
+      height: 220px;
+      margin-top: 20px;
+      margin-left: -40px;
+      padding:18px;
+  }
+  .services-conta{
+
+    width: 100%;
+  }
+
+  .contentsec{
+
+    width: 40%;
+  }
+  .contservice{
+
+      
+      height: 300px;
+      object-fit: cover;
+  }
+
+  .cont{
+     
+    background: url('img/R\ smail\ \(2\).jpeg');
+       height: 300px;
+       object-fit:fill;
+       
+    }
+    .swiper-slide{
+       width: 100%;
+
+    }
+
+    .textcont{
+
+      width:200px ;
+      font-size: 14px;
+      margin-top:23%;
+    }
+
+    
+
+    /*about page*/
+
+    .about p{
+
+      font-size: 19px;
+      margin-top: 65px;
+   }
+
+
+   .about-image img{
+     width: 1000px;
+      height: 280px;
+      display: block;
+      margin-left: -11px;
+     
+      
+  }
+
+ .about-content{
+  font-size: 15px;
+  margin-top: 2px;
+  margin-left: 8px;
+ }
+   .about-content h1{
+       
+           position: absolute;
+           top:112%;
+           font-size: 20px;
+           
+           
+          
+   }
+
+   .col-footer h4{
+      font-size: 21px;
+   }
+
+   .col-footer .list li a{
+
+      font-size: 16px;;
+   }
+
+   .line1{
+
+      width: 240px;
+      height: 3px;
+      background-color: #ab3786;
+      margin-left: 320px;
+  }
+
+  .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 50%;
+      object-fit: cover;
+    }
+
+    .swiper-slide h3{
+     
+     
+      font-size: 20px;
+      left: -20px;
+     top: 100px;
+    }
+
+  
+    /*service*/
+
+    .service-carda{
+   
+      background: #f4e6e6;
+      width: 300px;
+      height:500px;
+      margin: 10px;
+      border-radius: 15px;
+      margin-top: 2%;
+      
+    
+      
+  
+  }
+  
+  .service-carda-image{
+      
+      height: 180px;
+      margin-bottom: 15px;
+     
+      
+  }
+  
+  .service-carda p{
+      padding: 10px;
+      font-size: 13px;
+  }
+  
+  .service-carda h2{
+  font-size: 18px;
+  }
+
+  .service-carda{
+   
+      
+      width: 180px;
+      height:400px;
+      margin: 10px;
+      border-radius: 15px;
+      margin-top: 2%;
+      
+  
+  }
+
+  .skincare{
+
+      width: 10px;
+      display: flex;
+      margin-top: -50px;
+      margin-left: 100px;
+     
+     
+    }
+
+
+.skincare img{
+
+width: 400px;
+height: 300px;
+padding :50px;
+margin-left: 10px;
+
+
+
+}
+.textskin{
+  width: 800px;
+  margin-left:150px;
+  
+
+}
+
+.textskin p{
+  width: 500px;
+  height: 150px;
+  padding :10px;
+  margin-top: -50px;
+  
+
+}
+
+.headingskin{
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+/*product*/
+
+.contproducts{
+
+   height: 300px;
+
+ 
+}
+
+.contair{
+  
+    
+  width: 30%; 
+  height:390px;
+  margin-left: 5%;
+ text-align: center;
+ margin-top: 199px;
+
+}
+
+.map iframe{
+
+margin-left: 55%;
+ width: 40%;
+ margin-top: -4000px;
+ height: 380px;
+ 
+
+}
+
+
+
+.ma1{
+  margin-top: -20%;
+  height: 100%;
+}
+
+.contact-form i.fa{
+  font-size: 18px;
+  
+}
+
+
+
+
+.social-links i.fab{
+
+  font-size: 19px;
+
+}
+
+.social-links i.fab:hover{
+  cursor: pointer;  
+  border: 2px solid #211f1f;
+  color: #3a3737;
+}
+}
+  /*mobile friendly */
+@media screen and (max-width:600px)
+{
+    /*main page*/
+
+    .services
+    {
+      
+      height:8%;
+      margin-top: 60px;
+    }
+
+    .text1
+
+      {
+        font-size: 29px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 20px ;
+
+    }
+
+    .aboutText p{
+        margin-top: 101px;
+        font-size: 15px;
+       
+       }
+
+       .imgagesfirstcare img{
+   
+        width: 140px;
+        height: 130px;
+        margin-top: 20px;
+        padding: 3px;
+        margin-left: -40px;
+     }
+
+     .aboutcontainer
+    {
+
+  
+        margin-top: 120px;
+        font-size: 15px;
+  
+      }
+
+      .aboutcontainer img{
+
+        width: 140px;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: -40px;
+        padding:18px;
+    }
+    .services-conta{
+
+      width: 100%;
+    }
+
+    .contentsec{
+
+      width: 40%;
+    }
+    .contservice{
+
+        
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .cont{
+       
+      background: url('img/R\ smail\ \(2\).jpeg');
+         height: 300px;
+         object-fit:fill;
+         
+      }
+      .swiper-slide{
+         width: 100%;
+
+      }
+
+      .textcont{
+
+        width:200px ;
+        font-size: 14px;
+        margin-top: 45%;
+      }
+
+      
+
+      /*about page*/
+
+      .about p{
+
+        font-size: 15px;
+        margin-top: 65px;
+     }
+
+
+     .about-image img{
+       width: 1000px;
+        height: 160px;
+        display: block;
+        margin-left: -11px;
+       
+        
+    }
+
+   .about-content{
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 8px;
+   }
+     .about-content h1{
+         
+             position: absolute;
+             top:108%;
+             font-size: 15px;
+             
+             
+            
+     }
+
+     .col-footer h4{
+        font-size: 17px;
+     }
+
+     .col-footer .list li a{
+
+        font-size: 13px;;
+     }
+
+     .line1{
+
+        width: 240px;
+        height: 3px;
+        background-color: #ab3786;
+        margin-left: 100px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+      }
+
+      .swiper-slide h3{
+       
+       
+        font-size: 15px;
+        left: -20px;
+       top: 100px;
+      }
+
+    
+      /*service*/
+
+      .service-carda{
+     
+        background: #f4e6e6;
+        width: 300px;
+        height:500px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+      
+        
+    
+    }
+    
+    .service-carda-image{
+        
+        height: 180px;
+        margin-bottom: 15px;
+       
+        
+    }
+    
+    .service-carda p{
+        padding: 10px;
+        font-size: 13px;
+    }
+    
+    .service-carda h2{
+    font-size: 18px;
+    }
+
+    .service-carda{
+     
+        
+        width: 180px;
+        height:400px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+    
+    }
+
+    .skincare{
+
+        width: 10px;
+        display: flex;
+        margin-top: -50px;
+        margin-left: 00px;
+       
+       
+      }
+
+
+.skincare img{
+
+  width: 300px;
+  height: 300px;
+  padding :50px;
+ margin-left: 10px;
+ 
+  
+  
+}
+.textskin{
+    width: 600px;
+    margin-left:0px;
+    
+
+  }
+  
+  .textskin p{
+    width: 500px;
+    height: 150px;
+    padding :10px;
+    margin-top: -50px;
+    
+
+  }
+
+  .headingskin{
+    font-size: 18px;
+  }
+
+  /*product*/
+
+  .contproducts{
+  
+     height: 300px;
+  
+   
+  }
+    
+}
+
+
+
