@@ -515,7 +515,7 @@ margin-left: 10px;
  .car-1
  {
 
-    background-image:url('img/serum.png') ;
+    background-image:url('img/skin.webp') ;
  }
 
  .car-2{
@@ -2391,4 +2391,627 @@ margin-left: 55%;
 }
 
 
+@media screen and (max-width:458px)
+{
+    /*main page*/
+
+    .services
+    {
+      
+      height:8%;
+      margin-top: 60px;
+    }
+
+    .text1
+
+      {
+        font-size: 29px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 20px ;
+
+    }
+
+    .aboutText p{
+        margin-top: 131px;
+        font-size: 15px;
+       
+       }
+
+       .imgagesfirstcare img{
+   
+        width: 121px;
+        height: 130px;
+        margin-top: 20px;
+        padding: 3px;
+        margin-left: -40px;
+     }
+
+     .aboutcontainer
+    {
+
+  
+        margin-top: 120px;
+        font-size: 15px;
+  
+      }
+
+      .aboutcontainer img{
+
+        width: 120px;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: -40px;
+        padding:18px;
+    }
+    .services-conta{
+
+      width: 100%;
+    }
+
+    .contentsec{
+
+      width: 40%;
+    }
+    .contservice{
+
+        
+        height: 300px;
+        object-fit: cover;
+    }
+
+    
+      .swiper-slide{
+         width: 100%;
+
+      }
+
+      .textcont{
+
+        width:200px ;
+        font-size: 14px;
+        margin-top: 45%;
+      }
+
+      
+
+      /*about page*/
+
+      .about p{
+
+        font-size: 15px;
+        margin-top: 65px;
+     }
+
+
+     .about-image img{
+       width: 1000px;
+        height: 160px;
+        display: block;
+        margin-left: -11px;
+       
+        
+    }
+
+   .about-content{
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 8px;
+   }
+     .about-content h1{
+         
+             position: absolute;
+             top:108%;
+             font-size: 15px;
+             
+             
+            
+     }
+
+     .col-footer h4{
+        font-size: 17px;
+     }
+
+     .col-footer .list li a{
+
+        font-size: 13px;;
+     }
+
+     .line1{
+
+        width: 240px;
+        height: 3px;
+        background-color: #ab3786;
+        margin-left: 100px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 130px;
+        height: 50%;
+        object-fit: cover;
+      }
+
+      .swiper-slide h3{
+       
+       
+        font-size: 15px;
+        left: -100px;
+        top: 100px;
+      }
+
+    
+      /*service*/
+
+      .service-carda{
+     
+        background: #f4e6e6;
+        width: 300px;
+        height:500px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+      
+        
+    
+    }
+    
+    .service-carda-image{
+        
+        height: 180px;
+        margin-bottom: 15px;
+       
+        
+    }
+    
+    .service-carda p{
+        padding: 10px;
+        font-size: 13px;
+    }
+    
+    .service-carda h2{
+    font-size: 18px;
+    }
+
+    .service-carda{
+     
+        
+        width: 180px;
+        height:400px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+    
+    }
+
+    .skincare{
+
+        width: 10px;
+        display: flex;
+        margin-top: -50px;
+        margin-left: 00px;
+       
+       
+      }
+
+
+.skincare img{
+
+  width: 300px;
+  height: 300px;
+  padding :50px;
+ margin-left: 10px;
+ 
+  
+  
+}
+.textskin{
+    width: 600px;
+    margin-left:0px;
+    
+
+  }
+  
+  .textskin p{
+    width: 500px;
+    height: 150px;
+    padding :10px;
+    margin-top: -50px;
+    
+
+  }
+
+  .headingskin{
+    font-size: 18px;
+  }
+
+  /*product*/
+
+  .contproducts{
+  
+     height: 300px;
+  
+   
+  }
+
+  
+.contair{
+  
+    
+  width: 90%; 
+  height:430px;
+  margin-left: 5%;
+ text-align: center;
+ margin-top: 199px;
+
+}
+
+.map iframe{
+
+margin-left: 5%;
+ width: 90%;
+ margin-top: 80px;
+ height: 380px;
+ 
+
+}
+
+
+
+.ma1{
+  margin-top: -20%;
+  height: 100%;
+}
+
+.contact-form i.fa{
+  font-size: 18px;
+  
+}
+
+
+
+
+.social-links i.fab{
+
+  font-size: 19px;
+
+}
+
+.social-links i.fab:hover{
+  cursor: pointer;  
+  border: 2px solid #211f1f;
+  color: #3a3737;
+}
+
+
+
+.soci{
+  font-size: 10px;
+}
+
+.contabout{
+
+ height: 300px;
+}
+
+.contContact{
+  height: 300px;
+}
+    
+
+}
+
+@media screen and (max-width:400px)
+{
+    /*main page*/
+
+    .services
+    {
+      
+      height:8%;
+      margin-top: 60px;
+    }
+
+    .text1
+
+      {
+        font-size: 29px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 20px ;
+
+    }
+
+    .aboutText p{
+        margin-top: 131px;
+        font-size: 15px;
+       
+       }
+
+       .imgagesfirstcare img{
+   
+        width: 121px;
+        height: 130px;
+        margin-top: 20px;
+        padding: 3px;
+        margin-left: -40px;
+     }
+
+     .aboutcontainer
+    {
+
+  
+        margin-top: 120px;
+        font-size: 15px;
+  
+      }
+
+      .aboutcontainer img{
+
+        width: 120px;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: -40px;
+        padding:18px;
+    }
+    .services-conta{
+
+      width: 100%;
+    }
+
+    .contentsec{
+
+      width: 40%;
+    }
+    .contservice{
+
+        
+        height: 300px;
+        object-fit: cover;
+    }
+
+    
+      .swiper-slide{
+         width: 100%;
+
+      }
+
+      .textcont{
+
+        width:200px ;
+        font-size: 14px;
+        margin-top: 45%;
+      }
+
+      
+
+      /*about page*/
+
+      .about p{
+
+        font-size: 15px;
+        margin-top: 65px;
+     }
+
+
+     .about-image img{
+       width: 1000px;
+        height: 160px;
+        display: block;
+        margin-left: -11px;
+       
+        
+    }
+
+   .about-content{
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 8px;
+   }
+     .about-content h1{
+         
+             position: absolute;
+             top:108%;
+             font-size: 15px;
+             
+             
+            
+     }
+
+     .col-footer h4{
+        font-size: 17px;
+     }
+
+     .col-footer .list li a{
+
+        font-size: 13px;;
+     }
+
+     .line1{
+
+        width: 240px;
+        height: 3px;
+        background-color: #ab3786;
+        margin-left: 100px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 130px;
+        height: 50%;
+        object-fit: cover;
+      }
+
+      .swiper-slide h3{
+       
+       
+        font-size: 15px;
+        left: -100px;
+        top: 100px;
+      }
+
+    
+      /*service*/
+
+      .service-carda{
+     
+        background: #f4e6e6;
+        width: 300px;
+        height:500px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+      
+        
+    
+    }
+    
+    .service-carda-image{
+        
+        height: 180px;
+        margin-bottom: 15px;
+       
+        
+    }
+    
+    .service-carda p{
+        padding: 10px;
+        font-size: 13px;
+    }
+    
+    .service-carda h2{
+    font-size: 18px;
+    }
+
+    .service-carda{
+     
+        
+        width: 180px;
+        height:400px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+    
+    }
+
+    .skincare{
+
+        width: 10px;
+        display: flex;
+        margin-top: -50px;
+        margin-left: 00px;
+       
+       
+      }
+
+
+.skincare img{
+
+  width: 300px;
+  height: 300px;
+  padding :50px;
+ margin-left: 10px;
+ 
+  
+  
+}
+.textskin{
+    width: 600px;
+    margin-left:0px;
+    
+
+  }
+  
+  .textskin p{
+    width: 500px;
+    height: 150px;
+    padding :10px;
+    margin-top: -50px;
+    
+
+  }
+
+  .headingskin{
+    font-size: 18px;
+  }
+
+  /*product*/
+
+  .contproducts{
+  
+     height: 300px;
+  
+   
+  }
+
+  
+.contair{
+  
+    
+  width: 90%; 
+  height:430px;
+  margin-left: 5%;
+ text-align: center;
+ margin-top: 199px;
+
+}
+
+.map iframe{
+
+margin-left: 5%;
+ width: 90%;
+ margin-top: 80px;
+ height: 380px;
+ 
+
+}
+
+
+
+.ma1{
+  margin-top: -20%;
+  height: 100%;
+}
+
+.contact-form i.fa{
+  font-size: 18px;
+  
+}
+
+
+
+
+.social-links i.fab{
+
+  font-size: 19px;
+
+}
+
+.social-links i.fab:hover{
+  cursor: pointer;  
+  border: 2px solid #211f1f;
+  color: #3a3737;
+}
+
+
+
+.soci{
+  font-size: 10px;
+}
+
+.contabout{
+
+ height: 300px;
+}
+
+.contContact{
+  height: 300px;
+}
+    
+
+}
 
