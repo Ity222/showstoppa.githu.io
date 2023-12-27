@@ -123,6 +123,35 @@ header{
 
 .cont img{
    
+  background-size:cover;
+  background-attachment: fixed;
+   display: flex;
+   height: 500px;
+   width: 100%;
+   object-fit: cover;
+   justify-content: center;
+   flex-wrap: wrap;
+   box-shadow: 0 5px 15px rgb(117, 117, 117);
+   margin-top: auto;
+   background-attachment: fixed;
+   margin-bottom: inherit;
+     
+ 
+  }
+
+  .contabout img{
+    background-size:cover;
+     display: flex;
+     height: 500px;
+     justify-content: center;
+     flex-wrap: wrap;
+     box-shadow: 0 5px 15px rgb(117, 117, 117);
+     margin-top: auto;
+     background-attachment: fixed;
+     margin-bottom: inherit;
+  }
+
+  .contabout img{
     background-size:cover;
     background-attachment: fixed;
      display: flex;
@@ -135,16 +164,17 @@ header{
      margin-top: auto;
      background-attachment: fixed;
      margin-bottom: inherit;
-     
- 
   }
 
-  .contabout{
+  .contContact img{
+   
 
-    background: url('img/portrait-diverse-group-beautiful-women_146508-6883.webp');
     background-size:cover;
+    background-attachment: fixed;
      display: flex;
      height: 500px;
+     width: 100%;
+     object-fit: cover;
      justify-content: center;
      flex-wrap: wrap;
      box-shadow: 0 5px 15px rgb(117, 117, 117);
@@ -152,24 +182,14 @@ header{
      background-attachment: fixed;
      margin-bottom: inherit;
   }
-
-  .contContact{
-    background: url('img/R\ \(4\).jpeg');
+  .contproducts img{
+   
     background-size:cover;
+    background-attachment: fixed;
      display: flex;
      height: 500px;
-     justify-content: center;
-     flex-wrap: wrap;
-     box-shadow: 0 5px 15px rgb(117, 117, 117);
-     margin-top: auto;
-     background-attachment: fixed;
-     margin-bottom: inherit;
-  }
-  .contproducts{
-    background: url('img/shutterstock_265178501.webp');
-    background-size:cover;
-     display: flex;
-     height: 500px;
+     width: 100%;
+     object-fit: cover;
      justify-content: center;
      flex-wrap: wrap;
      box-shadow: 0 5px 15px rgb(117, 117, 117);
@@ -178,11 +198,14 @@ header{
      margin-bottom: inherit;
   }
   
-  .contservice{
-    background: url('img/sliderkbc.jpg');
+  .contservice img{
+   
     background-size:cover;
+    background-attachment: fixed;
      display: flex;
      height: 500px;
+     width: 100%;
+     object-fit: cover;
      justify-content: center;
      flex-wrap: wrap;
      box-shadow: 0 5px 15px rgb(117, 117, 117);
@@ -397,6 +420,7 @@ margin-top: 40px;
 
     display: flex; 
     overflow-x:scroll;
+    margin-top: 10%;
  
  
  
@@ -738,6 +762,7 @@ margin-left: 10px;
     height: 120%;
     display: block;
     transition: 0.5s ease;
+    margin-left: 290px;
 }
 .about-image:hover img{
     transform:scale(1.2);
@@ -753,6 +778,30 @@ margin-left: 10px;
    margin-bottom: 15px;
    color: #000;
    margin-left: -50px;
+}
+
+
+
+.about-content h4{
+
+font-size: 25px;
+font-weight: 500;
+ color: #000;
+ margin-left: 50%;
+
+
+}
+
+.about-content h3{
+
+  font-size: 18px;
+  font-weight: 100;
+  color: #000;
+   margin-left: 50%;
+   width: 50%;
+ 
+
+
 }
 
 .about-content p{
@@ -864,11 +913,63 @@ margin-left: 10px;
   background-color: #fff;
   }
 
+.broucher
+{
+
+  Width:50%;
+  height: 15%;
+  
+}
+
+.broucher p{
+
+  
+
+ font-size: 20px;
+font-weight: 500;
+letter-spacing: 2px;
+margin-bottom: 20px ;
+animation: text 3s 1;
+margin-top: 40px;
+margin-left: 350px;
+width: 100%;
+color: #553156;
+
+}
+ 
+ .download a{
+  font-size: 30px;
+  margin-left: 60%;
+  color:#e9688d;
+  
+ 
+ }
 
 
 
   @media only screen and (max-width:1320px){
 
+
+
+
+.broucher p{
+
+  
+
+ font-size: 20px;
+
+margin-left: 300px;
+
+
+}
+ 
+ .download a{
+  font-size: 30px;
+  margin-left: 40%;
+  color:#e9688d;
+  
+ 
+ }
     header{
         padding: 0 50px;
     }
@@ -883,6 +984,25 @@ margin-left: 10px;
        object-fit: cover;
     }
 
+    .contabout img{
+      object-fit:cover;
+       height: 500px;
+       width:100%;
+       object-fit: cover;
+    }
+
+    .contproducts img {
+      object-fit:cover;
+       height: 500px;
+       width:100%;
+       object-fit: cover;
+    }
+.contservice img{
+  object-fit:cover;
+       height: 500px;
+       width:100%;
+       object-fit: cover;
+}
        /*main page*/
 
        .services
@@ -976,10 +1096,10 @@ margin-left: 10px;
    
    
         .about-image img{
-          width: 1000px;
-           height: 160px;
+          width: 50%;
+           height: 300px;
            display: block;
-           margin-left: -11px;
+          margin-left: 300px;
           
            
        }
@@ -993,11 +1113,28 @@ margin-left: 10px;
             
                 position: absolute;
                 top:108%;
-                font-size: 15px;
+                font-size: 20px;
                 
                 
                
         }
+        .about-content h4{
+          font-size: 20px; 
+          text-align: center; 
+         
+  }
+
+
+  .about-content h3{
+    
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    width: 50%;
+    
+    
+   
+}
    
         .col-footer h4{
            font-size: 21px;
@@ -1253,12 +1390,9 @@ margin-left: 10px;
 
       width: 40%;
     }
-    .contservice{
+    
 
-        
-        height: 300px;
-        object-fit: cover;
-    }
+
 
     .cont img{
        
@@ -1268,6 +1402,32 @@ margin-left: 10px;
          width:100%;
         
       }
+
+      .contabout img{
+
+        height: 500px;
+        object-fit: cover;
+        width:100%;
+      }
+
+      .contproducts img{
+
+        height: 500px;
+        object-fit: cover;
+        width:100%;
+      }
+
+      
+      .contservice img{
+
+        height: 500px;
+        object-fit: cover;
+        width:100%;
+      }
+
+
+
+
       .swiper-slide{
          width: 100%;
 
@@ -1292,10 +1452,11 @@ margin-left: 10px;
 
 
      .about-image img{
-       width: 1000px;
-        height: 280px;
+       width: 40%;
+        height: 250px;
         display: block;
-        margin-left: -11px;
+        margin-left: 221px;
+
        
         
     }
@@ -1314,6 +1475,24 @@ margin-left: 10px;
              
             
      }
+
+     .about-content h4{
+         
+      
+      font-size: 20px;
+      text-align: center;
+      
+      
+     
+}
+
+
+.about-content h3{
+         
+text-align: center;
+font-weight: 100;
+ 
+}
 
      .col-footer h4{
         font-size: 21px;
@@ -1801,7 +1980,23 @@ margin-left: 55%;
 }
 
 @media only screen and (max-width:900px){
+  
+  .broucher p{
+  
+    
+  
+   font-size: 18px;
 
+  
+  }
+   
+   .download a{
+    font-size: 24px;
+    margin-left: 50%;
+    
+    
+   
+   }
     .hamburger{
         display: block;
         cursor: pointer;
@@ -1904,6 +2099,19 @@ margin-left: 55%;
   .services-conta{
 
     width: 100%;
+    height: 100%;
+   
+  }
+.contservice img{
+  width: 100%;
+  height: 400px;
+
+}
+  .services-conta{
+
+    width: 100%;
+    height: 50px;
+   
   }
 
   .contentsec{
@@ -1947,8 +2155,8 @@ margin-left: 55%;
 
 
    .about-image img{
-     width: 1000px;
-      height: 280px;
+     width: 350px;
+      height: 190px;
       display: block;
       margin-left: -11px;
      
@@ -2053,7 +2261,7 @@ margin-left: 55%;
       width: 10px;
       display: flex;
       margin-top: -50px;
-      margin-left: 100px;
+      margin-left: 20px;
      
      
     }
@@ -2061,17 +2269,17 @@ margin-left: 55%;
 
 .skincare img{
 
-width: 400px;
+width: 360px;
 height: 300px;
-padding :50px;
-margin-left: 10px;
+padding :5px;
+margin-left: 1px;
 
 
 
 }
 .textskin{
-  width: 800px;
-  margin-left:150px;
+  width: 700px;
+  margin-left: 20px;
   
 
 }
@@ -2080,14 +2288,15 @@ margin-left: 10px;
   width: 500px;
   height: 150px;
   padding :10px;
-  margin-top: -50px;
-  
+  margin-top: 20px;
+  margin-left: 10px;
 
 }
 
 .headingskin{
   font-size: 18px;
   margin-left: 15px;
+  margin-top: 90px;
 }
 
 /*product*/
@@ -2146,12 +2355,50 @@ margin-left: 55%;
   border: 2px solid #211f1f;
   color: #3a3737;
 }
+
+
+.about-content h3{
+
+  margin-left: 370px;
+}
+
+.about-content h4{
+
+  margin-left: 350px;
+}
+
 }
   /*mobile friendly */
 @media screen and (max-width:600px)
 {
     /*main page*/
 
+
+    .contproducts img {
+      height: 350px;
+    }
+
+    .contservice img {
+
+      height:240px ;
+    }
+
+.broucher p{
+
+  
+
+ font-size: 18px;
+ margin-left: 10px;
+
+}
+ 
+ .download a{
+  font-size: 21px;
+  margin-left: 6%;
+  color:#e9688d;
+  
+ 
+ }
     .services
     {
       
@@ -2166,7 +2413,7 @@ margin-left: 55%;
         font-weight: 700;
         letter-spacing: 8px;
         margin-bottom: 20px ;
-        margin-top: 9px;
+        margin-top: 20px;
 
     }
 
@@ -2205,6 +2452,7 @@ margin-left: 55%;
     .services-conta{
 
       width: 100%;
+       margin-top: 8%;
     }
 
     .contentsec{
@@ -2217,7 +2465,12 @@ margin-left: 55%;
         height: 300px;
         object-fit: cover;
     }
+
    
+   .contabout{
+
+    height: 350px;
+   }
 
     .cont img{
        
@@ -2249,9 +2502,9 @@ margin-left: 55%;
      }
 
 
-     .about-image img{
-       width: 1000px;
-        height: 160px;
+     .about-image {
+       width: 100%;
+        height: 200px;
         display: block;
         margin-left: -11px;
        
@@ -2417,7 +2670,7 @@ margin-left: 55%;
     {
       
       height:8%;
-      margin-top: 60px;
+      margin-top: 150px;
     }
 
     .text1
@@ -2427,6 +2680,7 @@ margin-left: 55%;
         font-weight: 700;
         letter-spacing: 8px;
         margin-bottom: 20px ;
+        margin-top: -110px;
 
     }
 
@@ -2449,7 +2703,7 @@ margin-left: 55%;
     {
 
   
-        margin-top: 120px;
+        margin-top: 0px;
         font-size: 15px;
   
       }
@@ -2503,8 +2757,8 @@ margin-left: 55%;
 
 
      .about-image img{
-       width: 1000px;
-        height: 160px;
+       width: 100%;
+        height: 250px;
         display: block;
         margin-left: -11px;
        
@@ -2519,8 +2773,8 @@ margin-left: 55%;
      .about-content h1{
          
              position: absolute;
-             top:108%;
-             font-size: 15px;
+             top:80%;
+             font-size: 20px;
              
              
             
@@ -2709,9 +2963,9 @@ margin-left: 5%;
   font-size: 10px;
 }
 
-.contabout{
+.contabout img{
 
- height: 300px;
+ height: 350px;
 }
 
 .contContact{
@@ -2726,6 +2980,32 @@ margin-left: 5%;
     /*main page*/
 
 
+
+    .broucher
+{
+
+  Width:50%;
+  height: 15%;
+  
+}
+
+.broucher p{
+
+  
+
+ font-size: 10px;
+ margin-left: 30px;
+
+
+}
+ 
+ .download a{
+  font-size: 20px;
+  margin-left:25px;
+  color:#e9688d;
+  
+ 
+ }
     .cont2{
     width: 100%;
  
@@ -2761,7 +3041,7 @@ margin-left: 5%;
         font-size: 29px;
         font-weight: 700;
         letter-spacing: 8px;
-        margin-top: -15px;
+        margin-top: -70px;
 
     }
 
@@ -2784,7 +3064,7 @@ margin-left: 5%;
     {
 
   
-        margin-top: 120px;
+        margin-top: 100;
         font-size: 15px;
   
       }
@@ -2792,7 +3072,7 @@ margin-left: 5%;
       .aboutcontainer img{
 
         width: 120px;
-        height: 130px;
+        height: 100px;
         margin-top: 20px;
         margin-left: -40px;
         padding:18px;
@@ -2838,10 +3118,12 @@ margin-left: 5%;
 
 
      .about-image img{
-       width: 1000px;
-        height: 160px;
+       width: 100%;
+        height: 150px;
         display: block;
         margin-left: -11px;
+        margin-top: 30px;
+        border-radius: 20px;
        
         
     }
@@ -2853,8 +3135,8 @@ margin-left: 5%;
    }
      .about-content h1{
          
-             position: absolute;
-             top:108%;
+           margin-left:-50%;
+             top:72%;
              font-size: 15px;
              
              
@@ -3044,13 +3326,40 @@ margin-left: 5%;
   font-size: 10px;
 }
 
-.contabout{
+.contproducts img{
 
- height: 300px;
+  background-attachment: fixed;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 240px;
 }
 
-.contContact{
-  height: 300px;
+.contabout img{
+
+  background-attachment: fixed;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 240px;
+}
+
+.contContact img{
+  background-attachment: fixed;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 240px;
+}
+
+
+
+.about-content h3{
+
+  margin-left: 10px;
+  width: 80%;
+}
+
+.about-content h4{
+
+  margin-left: 10px;
 }
     
 
