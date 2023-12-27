@@ -68,7 +68,7 @@ header{
 
 
 .aboutText p{
- margin-top: 110px;
+ margin-top: 150px;
 
 }
 
@@ -116,12 +116,19 @@ header{
     margin-left: 800px;
 
 }
-
 .cont{
-    background: url('img/R\ \(2\).jpeg');
+   
+  
+}
+
+.cont img{
+   
     background-size:cover;
+    background-attachment: fixed;
      display: flex;
      height: 500px;
+     width: 100%;
+     object-fit: cover;
      justify-content: center;
      flex-wrap: wrap;
      box-shadow: 0 5px 15px rgb(117, 117, 117);
@@ -228,7 +235,7 @@ header{
     letter-spacing: 2.9px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin-top: 25%;
+    margin-top: -5%;
   }
 
   .containerSlide{
@@ -380,6 +387,7 @@ font-weight: 700;
 letter-spacing: 8px;
 margin-bottom: 20px ;
 animation: text 3s 1;
+margin-top: 40px;
 
 
 }
@@ -865,6 +873,16 @@ margin-left: 10px;
         padding: 0 50px;
     }
 
+    
+
+    .cont img{
+   
+      object-fit:cover;
+       height: 500px;
+       width:100%;
+       object-fit: cover;
+    }
+
        /*main page*/
 
        .services
@@ -934,13 +952,6 @@ margin-left: 10px;
            object-fit: cover;
        }
    
-       .cont{
-          
-         background: url('img/R\ smail\ \(2\).jpeg');
-            height: 300px;
-            object-fit:fill;
-            
-         }
          .swiper-slide{
             width: 100%;
    
@@ -1197,12 +1208,12 @@ margin-left: 10px;
         font-size: 36px;
         font-weight: 700;
         letter-spacing: 8px;
-        margin-bottom: 20px ;
+        margin-top: 10px;
 
     }
 
     .aboutText p{
-        margin-top: 106px;
+        margin-top: 130px;
         font-size: 19px;
        
        }
@@ -1249,11 +1260,12 @@ margin-left: 10px;
         object-fit: cover;
     }
 
-    .cont{
+    .cont img{
        
-      background: url('img/R\ smail\ \(2\).jpeg');
+      
          height: 500px;
-         object-fit:fill;
+         object-fit: cover;
+         width:100%;
         
       }
       .swiper-slide{
@@ -1265,7 +1277,7 @@ margin-left: 10px;
 
         width:200px ;
         font-size: 14px;
-        margin-top:20%;
+        margin-top:-5%;
       }
 
       
@@ -1555,9 +1567,9 @@ margin-left: 10px;
       object-fit: cover;
   }
 
-  .cont{
+  .cont img{
      
-    background: url('img/R\ smail\ \(2\).jpeg');
+  
        height: 300px;
        object-fit:fill;
        
@@ -1853,12 +1865,12 @@ margin-left: 55%;
       font-size: 36px;
       font-weight: 700;
       letter-spacing: 8px;
-      margin-bottom: 20px ;
+      margin-top: 35px;
 
   }
 
   .aboutText p{
-      margin-top: 106px;
+      margin-top: 150px;
       font-size: 19px;
      
      }
@@ -1905,11 +1917,10 @@ margin-left: 55%;
       object-fit: cover;
   }
 
-  .cont{
+  .cont img{
      
-    background: url('img/R\ smail\ \(2\).jpeg');
-       height: 300px;
-       object-fit:fill;
+    width: 100%;
+    height: 10%;
        
     }
     .swiper-slide{
@@ -1921,7 +1932,7 @@ margin-left: 55%;
 
       width:200px ;
       font-size: 14px;
-      margin-top:23%;
+      margin-top:-12%;
     }
 
     
@@ -1973,7 +1984,7 @@ margin-left: 55%;
       width: 240px;
       height: 3px;
       background-color: #ab3786;
-      margin-left: 320px;
+      margin-left: 300px;
   }
 
   .swiper-slide img {
@@ -2155,11 +2166,12 @@ margin-left: 55%;
         font-weight: 700;
         letter-spacing: 8px;
         margin-bottom: 20px ;
+        margin-top: 9px;
 
     }
 
     .aboutText p{
-        margin-top: 101px;
+        margin-top: 120px;
         font-size: 15px;
        
        }
@@ -2205,12 +2217,13 @@ margin-left: 55%;
         height: 300px;
         object-fit: cover;
     }
+   
 
-    .cont{
+    .cont img{
        
-      background: url('img/R\ smail\ \(2\).jpeg');
-         height: 300px;
-         object-fit:fill;
+      
+         width: 100%;
+         height: 40%;
          
       }
       .swiper-slide{
@@ -2222,7 +2235,7 @@ margin-left: 55%;
 
         width:200px ;
         font-size: 14px;
-        margin-top: 45%;
+        margin-top: -10%;
       }
 
       
@@ -2274,7 +2287,7 @@ margin-left: 55%;
         width: 240px;
         height: 3px;
         background-color: #ab3786;
-        margin-left: 100px;
+        margin-left: 180px;
     }
 
     .swiper-slide img {
@@ -2395,6 +2408,11 @@ margin-left: 55%;
 {
     /*main page*/
 
+    .cont img{
+
+      width: 100%;
+    }
+
     .services
     {
       
@@ -2470,7 +2488,7 @@ margin-left: 55%;
 
         width:200px ;
         font-size: 14px;
-        margin-top: 45%;
+        margin-top: -13%;
       }
 
       
@@ -2707,6 +2725,29 @@ margin-left: 5%;
 {
     /*main page*/
 
+
+    .cont2{
+    width: 100%;
+ 
+       
+   
+    }
+    .cont{
+
+      height: 290px;
+      background-attachment: fixed;
+      
+    }
+
+    .cont img{
+
+      background-attachment: fixed;
+    
+      flex-wrap: wrap;
+      width: 100%;
+      height: 240px;
+    
+    }
     .services
     {
       
@@ -2720,7 +2761,7 @@ margin-left: 5%;
         font-size: 29px;
         font-weight: 700;
         letter-spacing: 8px;
-        margin-bottom: 20px ;
+        margin-top: -15px;
 
     }
 
@@ -2781,8 +2822,8 @@ margin-left: 5%;
       .textcont{
 
         width:200px ;
-        font-size: 14px;
-        margin-top: 45%;
+        font-size: 10px;
+        margin-top: -14%;
       }
 
       
@@ -2834,7 +2875,7 @@ margin-left: 5%;
         width: 240px;
         height: 3px;
         background-color: #ab3786;
-        margin-left: 100px;
+        margin-left: 60px;
     }
 
     .swiper-slide img {
