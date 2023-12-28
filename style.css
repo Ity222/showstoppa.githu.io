@@ -759,21 +759,19 @@ margin-left: 10px;
     margin-top:25%;
 }
 
-.about-image{
+.about-imag{
 
-    flex:1;
-    margin-right: 40px; 
-    overflow: hidden;
+    flex:1;  
     animation: fadeInRight 2s ease;
     margin-top: 10%;
+    height: 10%;
 }
 
-.about-image img{
-    max-width: 100%;
-    height: 120%;
+.about-imag img{
+    width: 160px;
     display: block;
     transition: 0.5s ease;
-    margin-left: 50px;
+    margin-left: -50px;
 }
 .about-image:hover img{
     transform:scale(1.2);
@@ -816,7 +814,7 @@ font-weight: 500;
   font-size: 18px;
   font-weight: 500;
    color: #000;
-   margin-left: 619px;
+   margin-left: 617px;
    width: 40%;
    
 }
@@ -989,12 +987,19 @@ color: #553156;
  
  }
 
+ .about-imag img {
+
+  width: 400px;
+ }
+
 
 
   @media only screen and (max-width:1320px){
 
 
-
+    .about-imag img {
+    width: 400px;
+    }
 
 .broucher p{
 
@@ -2075,8 +2080,9 @@ margin-left: 55%;
 
     }
 
-    .nav-bar.active{
+    .nav-bar.active {
         height: 450px;
+        
     }
 
     .nav-bar ul{
@@ -2208,14 +2214,7 @@ margin-left: 55%;
    }
 
 
-   .about-image img{
-     width: 350px;
-      height: 190px;
-      display: block;
-      margin-left: 11px;
-     
-      
-  }
+ 
 
  .about-content{
   font-size: 15px;
@@ -2225,12 +2224,15 @@ margin-left: 55%;
   
  .about-content h1{
   font-size: 15px;
-  margin-top: 200px;
+  margin-top: -15px;
   margin-left: 8px;
  }
   
  
+.about-imag img {
 
+  width: 300px;
+}
    .col-footer h4{
       font-size: 21px;
    }
@@ -2598,7 +2600,7 @@ margin-left: 55%;
     }
 
     .about-image2 img {
-      width: 100%;
+      width: 250px;
        height: 300px;
        display: block;
        margin-left: -71px;
@@ -2606,9 +2608,14 @@ margin-left: 55%;
       
        
    }
+
+   .about-imag img{
+
+    width: 300px;
+   }
 .about-contents h1{
 
-  margin-left: 300px;
+  margin-left: 240px;
 }
 
 .about-contents h4{
@@ -2623,9 +2630,9 @@ width: 55%;
    }
      .about-content h1{
          
-             position: absolute;
-             margin-top: 1%;
-             font-size: 19px;
+             
+             margin-top: -31%;
+             font-size: 20px;
              
              
             
@@ -3106,7 +3113,7 @@ margin-left: 5%;
  
  .download a{
   font-size: 20px;
-  margin-left:25px;
+  margin-left:5px;
   color:#e9688d;
   
  
@@ -3151,8 +3158,9 @@ margin-left: 5%;
     }
 
     .aboutText p{
-        margin-top: 131px;
+        margin-top: 90px;
         font-size: 15px;
+        margin-left: -16px;
        
        }
 
@@ -3171,6 +3179,7 @@ margin-left: 5%;
   
         margin-top: 100;
         font-size: 15px;
+        margin-left: 50px;
   
       }
 
@@ -3219,7 +3228,9 @@ margin-left: 5%;
       .about-content h4{
 
         font-size: 12px;
-        width: 190px;
+        width: 150px;
+        
+       
       }
 
       .about-content h1{
@@ -3236,9 +3247,9 @@ margin-left: 5%;
       }
       .about-contents h4{
 
-        font-size: 12px;
-        width: 170px;
-        margin-left: 165px;
+        font-size: 11px;
+        width: 140px;
+        margin-left: 160px;
       }
       .about p{
 
@@ -3247,12 +3258,14 @@ margin-left: 5%;
      }
 
   
-     .about-image img{
-       width: 100px;
-        height: 150px;
-        margin-left: 11px;
-     
-    }
+     .about-imag{
+
+      margin-left: 200px;
+      margin-top: -90%;
+      
+      
+
+     }
 
     .about-image2 img{
       width: 200px;
@@ -3470,6 +3483,7 @@ margin-left: 5%;
   flex-wrap: wrap;
   width: 100%;
   height: 240px;
+  margin-bottom: 50px;
 }
 
 .contContact img{
@@ -3489,7 +3503,7 @@ margin-left: 5%;
 
 .about-content h4{
 
-  margin-left: 10px;
+  margin-left: -4px;
 }
     
 
