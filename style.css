@@ -139,6 +139,12 @@ header{
  
   }
 
+  .contentsec{
+
+    margin-top: 90px;
+
+
+  }
   .contabout img{
     background-size:cover;
      display: flex;
@@ -172,7 +178,7 @@ header{
     background-size:cover;
     background-attachment: fixed;
      display: flex;
-     height: 500px;
+     height: 550px;
      width: 100%;
      object-fit: cover;
      justify-content: center;
@@ -294,7 +300,7 @@ header{
 
   .headingskin{
    
-    margin-top:200px;
+    margin-top:150px;
  text-align: center;
     width: 100%;
     font-size: 28px;
@@ -337,6 +343,7 @@ header{
     width: 500px;
     height: 400px;
     padding :50px;
+   
    
    
     
@@ -622,6 +629,10 @@ margin-left: 10px;
     height: 100%;
 }
 
+.contact-section{
+
+  margin-top: 300px;
+}
 .contact-form i.fa{
     font-size: 20px;
     padding: 3%;
@@ -2147,7 +2158,7 @@ margin-left: 55%;
   }
 .contservice img{
   width: 100%;
-  height: 400px;
+  height: 350px;
 
 }
   .services-conta{
@@ -2209,6 +2220,12 @@ margin-left: 55%;
  .about-content{
   font-size: 15px;
   margin-top: 2px;
+  margin-left: 8px;
+ }
+  
+ .about-content h1{
+  font-size: 15px;
+  margin-top: 200px;
   margin-left: 8px;
  }
   
@@ -2296,7 +2313,7 @@ margin-left: 55%;
 
       width: 10px;
       display: flex;
-      margin-top: -50px;
+      margin-top: -10px;
       margin-left: 20px;
      
      
@@ -2332,7 +2349,7 @@ margin-left: 1px;
 .headingskin{
   font-size: 18px;
   margin-left: 15px;
-  margin-top: 90px;
+  margin-top: 180px;
 }
 
 /*product*/
@@ -2526,7 +2543,7 @@ margin-left: 55%;
 
     .contentsec{
 
-      width: 40%;
+      width: 90%;
     }
     .contservice{
 
@@ -2536,7 +2553,7 @@ margin-left: 55%;
     }
 
    
-   .contabout{
+   .contabout img{
 
     height: 350px;
    }
@@ -2571,15 +2588,34 @@ margin-left: 55%;
      }
 
 
-     .about-image {
-       width: 100%;
-        height: 200px;
+     .about-image img {
+      
+        height: 300px;
         display: block;
         margin-left: -11px;
        
         
     }
 
+    .about-image2 img {
+      width: 100%;
+       height: 300px;
+       display: block;
+       margin-left: -71px;
+       margin-top: -280px;
+      
+       
+   }
+.about-contents h1{
+
+  margin-left: 300px;
+}
+
+.about-contents h4{
+margin-left: 240px;
+width: 55%;
+
+}
    .about-content{
     font-size: 15px;
     margin-top: 2px;
@@ -2588,8 +2624,8 @@ margin-left: 55%;
      .about-content h1{
          
              position: absolute;
-             top:108%;
-             font-size: 15px;
+             margin-top: 1%;
+             font-size: 19px;
              
              
             
@@ -2689,29 +2725,29 @@ margin-left: 55%;
   width: 300px;
   height: 300px;
   padding :50px;
- margin-left: 10px;
+ margin-left: -5px;
  
   
   
 }
 .textskin{
-    width: 600px;
-    margin-left:0px;
-    
-
+    width: 540px;
+    margin-left:40px;
   }
   
   .textskin p{
-    width: 500px;
+    width: 400px;
     height: 150px;
-    padding :10px;
+    padding :8px;
     margin-top: -50px;
+    font-size: 12px;
     
 
   }
 
   .headingskin{
     font-size: 18px;
+    margin-top: 150px;
   }
 
   /*product*/
@@ -3153,7 +3189,7 @@ margin-left: 5%;
 
     .contentsec{
 
-      width: 40%;
+      width: 80%;
     }
     .contservice{
 
@@ -3179,24 +3215,50 @@ margin-left: 5%;
 
       /*about page*/
 
+
+      .about-content h4{
+
+        font-size: 12px;
+        width: 190px;
+      }
+
+      .about-content h1{
+
+        font-size: 2px;
+        width: 190px;
+      }
+
+      .about-contents h1{
+
+        font-size: 19px;
+        width: 170px;
+        margin-left: 165px;
+      }
+      .about-contents h4{
+
+        font-size: 12px;
+        width: 170px;
+        margin-left: 165px;
+      }
       .about p{
 
-        font-size: 15px;
-        margin-top: 65px;
+        font-size: 12px;
+        margin-top: 35px;
      }
 
-
+  
      .about-image img{
-       width: 100%;
+       width: 100px;
         height: 150px;
-        display: block;
-        margin-left: -11px;
-        margin-top: 30px;
-        border-radius: 20px;
-       
-        
+        margin-left: 11px;
+     
     }
 
+    .about-image2 img{
+      width: 200px;
+      height: 200px;
+      margin-top: -240px;
+    }
    .about-content{
     font-size: 15px;
     margin-top: 2px;
@@ -3213,7 +3275,7 @@ margin-left: 5%;
      }
 
     .footer{
-      width: 100%;
+      width: 380px;
     }
 
      .col-footer h4{
@@ -3294,52 +3356,39 @@ margin-left: 5%;
     
     }
 
-    .skincare{
-
-        width: 10px;
-        display: block;
-        margin-top: -50px;
-        margin-left: 00px;
-       
-       
-      }
-
 
 .skincare img{
 
-  width: 300px;
-  height: 300px;
-  padding :50px;
- margin-left: 10px;
+  width: 200px;
+  height: 200px;
+  padding :40px;
+ margin-left: -18px;
  
   
   
 }
 
-.skincare p{
-  width: 500px;
-  height: 150px;
-  padding :10px;
-  margin-top: -50px;
-}
+
 .textskin{
-    width: 600px;
-    margin-left:0px;
-    display: block;
+    width: 320px;
+    margin-left:11px;
+    
 
   }
   
   .textskin p{
-    width: 500px;
+    width: 700px;
     height: 150px;
-    padding :10px;
-    margin-top: -50px;
+    padding :9px;
+    margin-top: -40px;
+    font-size: 9px;
     
 
   }
 
   .headingskin{
     font-size: 18px;
+    letter-spacing: 2px;
   }
 
   /*product*/
