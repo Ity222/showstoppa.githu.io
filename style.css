@@ -293,17 +293,15 @@ header{
   }
 
   .headingskin{
-    height: 20%;
-    margin-top:10%;
-    border-radius: 5px;
-
+   
+    margin-top:200px;
  text-align: center;
     width: 100%;
     font-size: 28px;
     font-weight: 500;
     letter-spacing: 8px;
     margin-bottom: 20px ;
-    margin-top: 45px;
+    
 
   }
 
@@ -726,6 +724,7 @@ margin-left: 10px;
 .about p{
 
    font-size: 18px;
+   margin-top: 5%;
 }
 .about-content h1:after{
     
@@ -755,6 +754,7 @@ margin-left: 10px;
     margin-right: 40px; 
     overflow: hidden;
     animation: fadeInRight 2s ease;
+    margin-top: 10%;
 }
 
 .about-image img{
@@ -762,57 +762,67 @@ margin-left: 10px;
     height: 120%;
     display: block;
     transition: 0.5s ease;
-    margin-left: 290px;
+    margin-left: 50px;
 }
 .about-image:hover img{
     transform:scale(1.2);
 }
 .about-content{
     flex:1;
-    margin-left: -290px;
+    
 }
 
 .about-content h1{
 
-    font-size: 23px;
+    font-size: 33px;
    margin-bottom: 15px;
    color: #000;
-   margin-left: 50px;
+   margin-left: 150px;
 }
 
 
 
 .about-content h4{
 
-font-size: 19px;
+font-size: 18px;
 font-weight: 500;
  color: #000;
- margin-left: 400px;
- width: 80%;
-
+ margin-left: 150px;
+ width: 60%;
 
 
 }
 .about-contents h1{
 
-  font-size: 23px;
+  font-size: 33px;
    margin-bottom: 15px;
    color: #000;
-   margin-left: -50px;
+   margin-left: 615px;
+   margin-top: 5%;
 }
 .about-contents h4{
 
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
    color: #000;
-   margin-left: 600px;
-   width: 50%;
+   margin-left: 619px;
+   width: 40%;
+   
 }
 
-.about-contents img{
+.about-image2{
 
-  margin-left: 41px;
-  margin-top: -100px;
+  margin-top: -20%;
+  margin-left: 9%;
+  height: 20%;
+}
+
+
+.about-image2 img{
+
+  margin-top: -20%;
+  margin-left: 10%;
+  height: 350px;
 }
 
 .about-content h3{
@@ -1119,10 +1129,10 @@ margin-left: 300px;
    
    
         .about-image img{
-          width: 50%;
-           height: 300px;
+          
+           height: 250px;
            display: block;
-          margin-left: 300px;
+          margin-left: 150px;
           
            
        }
@@ -1134,17 +1144,28 @@ margin-left: 300px;
       }
         .about-content h1{
             
-                position: absolute;
+                
                 top:108%;
                 font-size: 20px;
-                
-                
+                margin-left: 2%;
                
         }
         .about-content h4{
-          font-size: 20px; 
-          text-align: center; 
+          font-size: 10px; 
+          margin-left: 15%;
+          margin-top: 2%;
+          width: 80%;
          
+  }
+
+  .about-contents h4{
+
+    font-size: 15px; 
+  }
+
+  .about-image2 img{
+
+    margin-top: -30%;
   }
 
 
@@ -1173,7 +1194,7 @@ margin-left: 300px;
            width: 240px;
            height: 3px;
            background-color: #ab3786;
-           margin-left: 170px;
+           margin-left: 500px;
        }
    
        .swiper-slide img {
@@ -1475,10 +1496,11 @@ margin-left: 300px;
 
 
      .about-image img{
-       width: 40%;
+       width: 60%;
         height: 250px;
         display: block;
-        margin-left: 221px;
+        margin-left: 121px;
+        margin-top: -10px;
 
        
         
@@ -1491,18 +1513,16 @@ margin-left: 300px;
    }
      .about-content h1{
          
-             position: absolute;
-             top:112%;
-             font-size: 20px;
              
-             
+      margin-top: -90px;
+             font-size: 30px;   
             
      }
 
      .about-content h4{
          
-      
-      font-size: 20px;
+      font-size: 15px;
+      margin-top: -50px;
      
       
       
@@ -1531,7 +1551,7 @@ font-weight: 100;
         width: 240px;
         height: 3px;
         background-color: #ab3786;
-        margin-left: 460px;
+        margin-left: 495px;
     }
 
     .swiper-slide img {
@@ -2181,7 +2201,7 @@ margin-left: 55%;
      width: 350px;
       height: 190px;
       display: block;
-      margin-left: -11px;
+      margin-left: 11px;
      
       
   }
@@ -2191,15 +2211,8 @@ margin-left: 55%;
   margin-top: 2px;
   margin-left: 8px;
  }
-   .about-content h1{
-       
-           position: absolute;
-           top:112%;
-           font-size: 20px;
-           
-           
-          
-   }
+  
+ 
 
    .col-footer h4{
       font-size: 21px;
@@ -2385,9 +2398,42 @@ margin-left: 55%;
   margin-left: 370px;
 }
 
+
+.about-content h1{
+
+  margin-left: 0px;
+  font-size: 20px;
+}
+
 .about-content h4{
 
-  margin-left: 350px;
+  margin-left: 0px;
+  font-size: 15px;
+  margin-top: -5%;
+}
+
+.about-image img{
+
+  margin-left: 0px;
+  height: 20%;
+}
+
+.about-contents h4{
+
+  margin-left:400px;
+  font-size: 15px;
+}
+
+.about-contents h1{
+
+  margin-left:400px;
+  font-size: 23px;
+}
+
+.about-image2 img{
+
+  margin-left: -62px;
+  margin-top: -70%;
 }
 
 }
@@ -3166,6 +3212,10 @@ margin-left: 5%;
             
      }
 
+    .footer{
+      width: 100%;
+    }
+
      .col-footer h4{
         font-size: 17px;
      }
@@ -3247,7 +3297,7 @@ margin-left: 5%;
     .skincare{
 
         width: 10px;
-        display: flex;
+        display: block;
         margin-top: -50px;
         margin-left: 00px;
        
@@ -3265,10 +3315,17 @@ margin-left: 5%;
   
   
 }
+
+.skincare p{
+  width: 500px;
+  height: 150px;
+  padding :10px;
+  margin-top: -50px;
+}
 .textskin{
     width: 600px;
     margin-left:0px;
-    
+    display: block;
 
   }
   
