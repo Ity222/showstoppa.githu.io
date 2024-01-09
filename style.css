@@ -337,7 +337,7 @@ header{
   
   .textskin p{
     width: 500px;
-    height: 150px;
+    height: 200px;
     padding :55px;
     margin-top: -70px;
   }
@@ -354,7 +354,7 @@ header{
 
     width: 450px;
     height: 380px;
-    padding :60px;
+    padding :40px;
    border-radius: 9px;
   
   }
@@ -754,7 +754,7 @@ margin-left: 10px;
         content: " ";
         height: 5px;
         width: 14%;
-        background-color: #bda30d;
+        
         transition: 0.5s;
         
        
@@ -803,8 +803,8 @@ margin-left: 10px;
 .about-content h4{
 
 font-size: 18px;
-font-weight: 500;
  color: #000;
+ font-weight: 400;
  margin-left: 150px;
  width: 60%;
 
@@ -821,7 +821,7 @@ font-weight: 500;
 .about-contents h4{
 
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
    color: #000;
    margin-left: 617px;
    width: 40%;
@@ -3245,7 +3245,7 @@ margin-left: 5%;
 
       .about-content h4{
 
-        font-size: 12px;
+        font-size: 10px;
         width: 150px;
         
        
@@ -3265,7 +3265,7 @@ margin-left: 5%;
       }
       .about-contents h4{
 
-        font-size: 11px;
+        font-size: 10px;
         width: 140px;
         margin-left: 160px;
       }
@@ -3391,7 +3391,7 @@ margin-left: 5%;
 
     .skincare1 img{
       width: 200px;
-      height: 200px;
+      height: 150px;
       padding :40px;
      margin-left: -18px;
      
@@ -3400,7 +3400,7 @@ margin-left: 5%;
 .skincare img{
 
   width: 150px;
-  height: 180px;
+  height: 160px;
   padding :30px;
  margin-left: -18px;
  
