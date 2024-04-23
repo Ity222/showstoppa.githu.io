@@ -39,10 +39,6 @@ header{
 
 }
 
-.logo{
-
-
-}
 
 
 
@@ -970,6 +966,7 @@ font-size: 18px;
       padding: 70px 0;
      height: auto;
      margin-top:inherit;
+     width:inherit;
     
   
      
@@ -2262,7 +2259,7 @@ margin-left: 55%;
     .hamburger .line{
         width: 30px;
         height: 3px;
-        background: #fefefe;
+        background: #fff;
         margin: 6px 0;
     }
 
@@ -2300,6 +2297,7 @@ margin-left: 55%;
 
     .nav-bar ul li a{
         margin-bottom: 12px;
+        color: #fff;;
     }
 
 
@@ -2656,6 +2654,441 @@ margin-left: 55%;
 }
 
 }
+
+/*tablet mode*/
+@media screen and (max-width:780px)
+{
+    /*main page*/
+    /*background image*/
+    .cont img{
+       
+      background-size:cover;
+      display: flex;
+      height: 450px;
+         
+         
+      }
+
+      .textcont{
+
+        top: -20px;
+        
+      }
+   /*Underline */
+      .line1{
+
+        width: 150px;
+        height: 3px;
+        background-color: #ab3786;
+        text-align: center;
+    }
+
+     /*Heading  */
+    .services
+    {
+      
+      height:8%;
+      margin-top: 30px;
+   
+    }
+
+    .text1
+
+    {
+      text-align: center;
+      font-size: 29px;
+      font-weight: 700;
+      letter-spacing: 8px;
+      margin-bottom: 20px ;
+      margin-top: 20px;
+
+  }
+
+    
+     /*About tetx*/
+    .aboutText p{
+      margin-top: 110px;
+      font-size: 15px;
+     
+     }
+   /*3 image at the bottom of the about */
+   .imgagesfirstcare{
+   
+    width: 750px;
+    height: 900px;
+    margin-left: -150px;
+   
+    
+    
+ }
+
+   
+   .imgagesfirstcare img{
+   
+      width: 250px;
+      height: 270px;
+    
+      padding: 40px;
+      
+      
+   }
+
+   /*circular image */
+.imgagesKin{
+
+  width: 580px;
+
+  
+}
+.aboutcontainer img{
+
+  width: 230px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: -40px;
+  padding:28px;
+}
+
+   
+    .contproducts img {
+      height: 350px;
+    }
+
+    .contservice img {
+
+      height:240px ;
+    }
+
+.broucher p{
+
+ font-size:14px;
+ margin-left: 10px;
+
+}
+ 
+ .download a{
+  font-size: 21px;
+  margin-left: 6%;
+  color:#e9688d;
+  
+ 
+ }
+   
+
+   
+
+
+
+     .aboutcontainer
+    {
+
+  
+        margin-top: 120px;
+        font-size: 15px;
+  
+      }
+
+     
+    .services-conta{
+
+      width: 100%;
+       margin-top: 8%;
+    }
+
+    .contentsec{
+
+      width: 90%;
+    }
+
+    
+    .contservice{
+
+        
+        height: 220px;
+        object-fit: cover;
+    }
+
+   
+   .contabout img{
+
+    height: 350px;
+   }
+  
+
+    
+      .swiper-slide{
+         width: 100%;
+
+      }
+
+      .textcont{
+
+        width:200px ;
+        font-size: 14px;
+        margin-top: -10%;
+      }
+
+      
+
+      /*about page*/
+
+      .about p{
+
+        font-size: 15px;
+        margin-top: 5px;
+     }
+
+
+     .about-image img {
+      
+        height: 300px;
+        display: block;
+        margin-left: -11px;
+       
+        
+    }
+
+    .about-image2 img {
+      width: 250px;
+       height: 300px;
+       display: block;
+       margin-left: -90px;
+       margin-top: -180px;
+      
+       
+   }
+
+   .about-imag img{
+
+    width: 300px;
+   }
+.about-contents h1{
+
+  margin-left: 240px;
+}
+
+.about-contents h4{
+margin-left: 240px;
+width: 55%;
+
+}
+   .about-content{
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: 8px;
+   }
+     .about-content h1{
+         
+             
+             margin-top: -31%;
+             font-size: 20px;
+             
+             
+            
+     }
+
+     .col-footer h4{
+        font-size: 17px;
+     }
+
+     .col-footer .list li a{
+
+        font-size: 13px;;
+     }
+
+    
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+      }
+
+      .swiper-slide h3{
+       
+       
+        font-size: 15px;
+        left: -20px;
+       top: 100px;
+      }
+
+    
+      /*service*/
+
+      .service-carda{
+     
+        background: #f4e6e6;
+        width: 300px;
+        height:500px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%; 
+    
+    }
+    
+    .service-carda-image{
+        
+        height: 180px;
+        margin-bottom: 15px;
+       
+        
+    }
+    
+    .service-carda p{
+        padding: 10px;
+        font-size: 13px;
+    }
+    
+    .service-carda h2{
+    font-size: 18px;
+    }
+
+    .service-carda{
+     
+        
+        width: 180px;
+        height:400px;
+        margin: 10px;
+        border-radius: 15px;
+        margin-top: 2%;
+        
+    
+    }
+
+    
+   /*first raw of pics and words*/
+   .skincare{
+
+    width: 10px;
+    display: flex;
+    margin-top: -50px;
+    
+   
+   
+  }
+
+.skincare img{
+
+  width: 220px;
+  height: 160px;
+  padding :20px;
+  margin-left: 15px;;
+  
+}
+.textskin{
+  width: 690px;
+  margin-left:37px;
+  margin-bottom: -130px;
+}
+
+
+     /*Second raw of image and text*/
+  .skincare2{
+
+    width: 500px;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 70PX;
+  }
+  .skincare2 img{
+
+    width: 260px;
+  height: 260px;
+  padding :45px;
+  margin-bottom: -10px;
+    
+  
+    
+  }
+ 
+    
+    .textskin p{
+      width: 500px;
+      height: 150px;
+      padding :5px;
+      margin-top: -10px;
+      margin-bottom: 50px;
+      font-size: 10px;
+      
+  
+    }
+
+
+     /*3rd raw*/
+     .skincare1{
+
+      width: 580px;
+      display: flex;
+      margin-top: -50px;
+      margin-left: 80PX;
+    }
+    .skincare1 img{
+  
+      width: 280px;
+    height: 260px;
+    padding :25px;
+    margin-bottom: -10px;
+      
+  
+      
+    }
+    .textskin1{
+      width: 650px;
+      margin-left:77px;
+      margin-bottom: -100px;
+    }
+    
+    .textskin1 p{
+      width: 500px;
+      height: 150px;
+      padding :5px;
+      margin-top: -10px;
+      margin-bottom: 50px;
+      font-size: 10px;
+      
+  
+    }
+
+      /*3rd raw*/
+      .skincare3{
+
+        width: 550px;
+        display: flex;
+        margin-top: -50px;
+        margin-left: 57px;
+      }
+      .skincare3 img{
+    
+        width: 280px;
+      height: 260px;
+      padding :30px;
+      margin-bottom: -10px;
+        
+    
+        
+      }
+      
+
+  .headingskin{
+    font-size: 18px;
+    margin-top: 150px;
+    
+    width: 90%;
+  }
+
+  /*product*/
+
+  .contproducts{
+  
+     height: 300px;
+  
+   
+  }
+    .footer{
+     min-width:max-content;
+    }
+}
   /*mobile friendly */
 @media screen and (max-width:600px)
 {
@@ -2849,7 +3282,7 @@ width: 55%;
 
      .line1{
 
-        width: 240px;
+        width: 160px;
         height: 3px;
         background-color: #ab3786;
         margin-left: 180px;
