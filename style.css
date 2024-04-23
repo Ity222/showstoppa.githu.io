@@ -3891,17 +3891,24 @@ margin-left: 5%;
         font-size: 15px;
         margin-left: -16px;
        
-       }
+       
+      }
+
+      .imgagesKin{
+        margin-left: -70px;;
+        width: 400px;
+      }
+
 .imgagesfirstcare {
-  width: 300px;
+  width: 500px;
 }
        .imgagesfirstcare img{
    
-        width: 121px;
+        width: 120px;
         height: 130px;
         margin-top: 20px;
-        padding: 3px;
-        margin-left: -40px;
+        padding: 12px;
+        margin-left: -10px;
      }
 
      .aboutcontainer
@@ -3985,7 +3992,7 @@ margin-left: 5%;
       .about-contents h4{
 
         font-size: 10px;
-        width: 140px;
+        width: 160px;
         margin-left: 160px;
       }
       .about p{
@@ -3997,16 +4004,20 @@ margin-left: 5%;
   
      .about-imag{
 
-      margin-left: 200px;
+      margin-left: 205px;
       margin-top: -90%;
-      
       
 
      }
+     .about-imag img{
 
+      width: 200px;
+      height: 260px;
+      
+     }
     .about-image2 img{
       width: 200px;
-      height: 200px;
+      height: 260px;
       margin-top: -240px;
     }
    .about-content{
@@ -4119,27 +4130,69 @@ margin-left: 5%;
 .skincare img{
 
   width: 150px;
-  height: 160px;
+  height: 150px;
   padding :30px;
  margin-left: -18px;
+ margin-top: 80px;
  
   
   
 }
+
+.textskin2{
+
+  margin-bottom: 170px;
+  width: 380px;
+}
+
+.skincare3 img{
+
+  width: 140px;
+  height: 170px;
+  padding :40px;
+ margin-left: -40px;
+ margin-top: -180px;
+ 
+ 
+}
+
+.skincare3 {
+
+ margin-left: 10px;
+
+ 
+ 
+}
+
+.skincare2 img{
+  width: 150px;
+  height: 150px;
+  padding :30px;
+ margin-left: -18px;
+ margin-top: -70px;
+ 
+  
+}
+
+
+
+
+.skincare1 img{
+  width: 150px;
+  height: 150px;
+  padding :30px;
+ margin-left: -22px;
+ margin-top: 10px;
+ 
+  
+}
+
 .textskin1{
-  width: 220px;
-  margin-left:11px;
+  width: 380px;
+    margin-left:30px;
     
 }
 
-.textskin1 p{
-
-  width: 500px;
-    height: 150px;
-    padding :9px;
-    margin-top: -40px;
-    font-size: 9px
-}
 
 .textskin{
     width: 380px;
@@ -4154,6 +4207,7 @@ margin-left: 5%;
     padding :9px;
     margin-top: -30px;
     font-size: 8px;
+    margin-bottom: 60px;
     
 
   }
