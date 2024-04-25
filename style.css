@@ -228,7 +228,7 @@ header{
   }
 
   .cont2{
-    background: url('img/applicable-for-any-skin-type-or-colour.jpg');
+    background: url('img/Woman_doing_skincare_routine_by_Pexels.webp');
     background-size:cover;
      display: flex;
      height: 300px;
@@ -238,6 +238,7 @@ header{
      margin-top: 150px;
      background-attachment: fixed;
      margin-bottom: -25px;
+     
      
  
   }
@@ -800,7 +801,7 @@ margin-left: 10px;
 {
 
 
- margin-top: 150px;
+ margin-top: 90px;
  width: 80%;
  width: 70%;
  font-size: 20px;
@@ -2714,9 +2715,9 @@ margin-left: 55%;
    /*3 image at the bottom of the about */
    .imgagesfirstcare{
    
-    width: 750px;
+    width: 950px;
     height: 900px;
-    margin-left: -150px;
+    margin-left: -250px;
    
     
     
@@ -2725,10 +2726,9 @@ margin-left: 55%;
    
    .imgagesfirstcare img{
    
-      width: 250px;
-      height: 270px;
-    
-      padding: 40px;
+      width: 600px;
+      height: 970px;
+      
       
       
    }
@@ -2736,7 +2736,7 @@ margin-left: 55%;
    /*circular image */
 .imgagesKin{
 
-  width: 580px;
+  width: 400px;
 
   
 }
@@ -2989,7 +2989,7 @@ width: 55%;
     width: 500px;
     display: flex;
     margin-top: -50px;
-    margin-left: 70PX;
+    margin-left: -10PX;
   }
   .skincare2 img{
 
@@ -3020,8 +3020,8 @@ width: 55%;
 
       width: 580px;
       display: flex;
-      margin-top: -50px;
-      margin-left: 80PX;
+      margin-top: -20px;
+      margin-left: 20PX;
     }
     .skincare1 img{
   
@@ -3035,7 +3035,7 @@ width: 55%;
     }
     .textskin1{
       width: 650px;
-      margin-left:77px;
+      margin-left:7px;
       margin-bottom: -100px;
     }
     
@@ -3151,13 +3151,14 @@ width: 55%;
         margin-top: 20px;
         padding: 3px;
         margin-left: -40px;
+        margin-bottom: 10px;
      }
 
      .aboutcontainer
     {
 
   
-        margin-top: 120px;
+        margin-top: 50px;
         font-size: 15px;
   
       }
@@ -3185,6 +3186,7 @@ width: 55%;
         
         height: 300px;
         object-fit: cover;
+        margin-bottom: -100px;
     }
 
    
@@ -3196,8 +3198,9 @@ width: 55%;
     .cont img{
        
       
-         width: 100%;
-         height: 40%;
+        
+         height: 300px;
+         object-fit: cover;
          
       }
       .swiper-slide{
@@ -3849,6 +3852,8 @@ margin-left: 5%;
  }
     .cont2{
     width: 100%;
+    object-fit:cover;
+    height: 210px;
  
        
    
@@ -3914,11 +3919,9 @@ margin-left: 5%;
      .aboutcontainer
     {
 
-  
-        margin-top: 100;
         font-size: 15px;
         margin-left: 70px;
-        
+        margin-top:-200px;
   
       }
 
@@ -4133,7 +4136,7 @@ margin-left: 5%;
   height: 150px;
   padding :30px;
  margin-left: -18px;
- margin-top: 80px;
+ margin-top: 20px;
  
   
   
