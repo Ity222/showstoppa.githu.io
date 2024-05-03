@@ -27,17 +27,22 @@
         margin: 0;
         padding: 0;
       }
-  
+  .swiper-wrapper{
+
+    width: 10%;
+  }
       .swiper {
-        width: 100%;
-        height: 40%;
+        width: 60%;
+        height: 50%;
         margin-top: -17px;
+        margin-left: 100px;
+        margin-bottom: -120px;
       }
   
       .swiper-slide {
         text-align: center;
         font-size: 18px;
-        
+        margin-top: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,78 +50,87 @@
   
       .swiper-slide img {
         display: block;
-        width: 70%;
+        width: 50%;
         height: 70%;
         object-fit: cover;
         border-radius: 20px;
+        margin-left: 10px;
+        
+        
       }
 
       .swiper-slide h3{
 
-        color: #553156;
-    margin-top: -290px;
+        color: #29222a;
+    margin-top: 300px;
     width: 100%;
     display: flex;
     margin-left: -340px;
-    font-size: 25px;
+    font-size: 14px;
   }
 
    
-@media screen and (max-width:758px)
-    {
 
-      .swiper-slide img {
-        display: block;
-        width: 130px;
-        height: 58%;
-        object-fit: cover;
-      }
-      .swiper {
-        width: 75%;
-        height: 40%;
-        margin-top: -17px;
-      }
+  @media screen and (max-width:780px)
+{
+  .swiper {
+  width: 95%;
+  height: 70%;
+  border-radius: 15px;
+  margin-top: 90px;
+  margin-bottom: -110px;
 
-    }
+}
 
-      @media screen and (max-width:400px)
-    {
+.swiper-slide h3{
+  text-align: center;
+  font-size: 15px;
+  padding-left: 500px;
+ 
 
-      .swiper-slide img {
-        display: block;
-        width: 130px;
-        height: 55%;
-        object-fit: cover;
-        margin-left: 10px;
-      }
-      .swiper {
-        width: 100%;
-        height: 40%;
-        margin-top: -17px;
-      }
-      
+}
+
 }
 
 
-@media screen and (max-width:458px)
-    {
 
-      .swiper-slide img {
-        display: block;
-        width: 130px;
-        height: 1000px;
-        object-fit: cover;
-        margin-left: 10px;
-      }
-      .swiper {
-        width: 100%;
-        height: 1px;
-        margin-top: -17px;
-      }
-      
+@media screen and (max-width:400px)
+{
+
+  .swiper{
+    margin-top: 10px;
+  }
+  .swiper-wrapper {
+  width: 90%;
+  height: 70%;
+  margin-top: 20px;
+  margin-bottom: -110px;
+  padding: -10px;
+  
+
 }
 
-      
+.swiper-wrapper img{
+ margin-left:-20px;
+ margin-top: -90px;
+ border-radius: 50px;
+ padding: 10px;
+ 
+  
+
+}
+
+.swiper-slide h3{
+  text-align: center;
+  font-size: 10px;
+  padding-left: 500px;
+ 
+  
+
+ 
+}
+
+
 }
  
       
@@ -171,7 +185,7 @@
 <div class="services">
   <span class ="text1">Skin Treatment  </span>
 
-  <div class="line1"></div>
+  <center><div class="line1"></div></center>
 
 </div>
 
@@ -220,7 +234,7 @@
 <div class="services">
   <span class ="text1">Skin Care products  </span>
 
-  <div class="line1"></div>
+  <center><div class="line1"></div></center>
 
 </div>
 <br>
@@ -261,36 +275,53 @@
 
 
 <div class="services">
-  <span class ="text1">Other Services   </span>
+  <span class ="text1">Hair services    </span>
 
-  <div class="line1"></div>
+  <center><div class="line1"></div></center>
 
 </div>
-
-
-
-<body>
-<!-- Swiper -->
-<div class="headingskin">
-  Weave Creation and 
-  <br>Installation
-</div>
-
 <p>
   <center><button type="button" class="btn btn-secondary">View catalogue wig prices </button></center>
 
 </p>
-<div class="swiper mySwiper">
-<div class="swiper-wrapper">
-    
-  <div class="swiper-slide"><img src="img/4dS255.gif" alt=""></div>
-  <div class="swiper-slide"><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
-  <div class="swiper-slide"><img src="img/WhatsApp Image 2024-04-24 at 11.36.31_75ba4aab.jpg" alt=""></div>
-  <div class="swiper-slide"><img src="img/WhatsApp Image 2024-04-24 at 11.36.31_d9085856.jpg" alt=""></div>
-  <div class="swiper-slide"><img src="img/grey.jpeg" alt=""></div>
-  
+
+
+
+<!-- Swiper -->
+
+
+<div class="headingskin">
+  Straight Frontal pricing per inc 
 </div>
-<div class="swiper-pagination"></div>
+
+
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+   <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/skincc.webp" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/nail.jpg" alt=""></div>
+   <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/beauty.jpg" alt=""> 
+   </div>
+   
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+<div class="headingskin">
+  Curly Frontal pricing per inc 
+</div>
+
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+   <div class="swiper-slide"><h3>R1500 22inc  </h3><img src="img/skincc.webp" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/nail.jpg" alt=""></div>
+   <div class="swiper-slide"><h3>R1500 22inc </h3><img src="img/beauty.jpg" alt=""> 
+   </div>
+   
+  </div>
+  <div class="swiper-pagination"></div>
 </div>
 
 
@@ -345,22 +376,26 @@
 
 
 <!-- Swiper JS -->
+<!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
-    spaceBetween: 30,
+    spaceBetween: 20,
     pagination: {
-      el: ".swiper-pagination",
+      el: "swiper-pagination",
       clickable: true,
     },
+    loop:true,
+     autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+    
   });
 </script>
-<!--Boostrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
- 
 
 <script>
   hamburger = document.querySelector(".hamburger");

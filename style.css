@@ -193,7 +193,7 @@ header{
      box-shadow: 0 5px 15px rgb(117, 117, 117);
      margin-top: auto;
      background-attachment: fixed;
-     margin-bottom: inherit;
+     margin-bottom: -100px;
   }
   .contproducts img{
    
@@ -253,13 +253,14 @@ header{
     height: 30%;
     
   }
+  /*Line under heading*/
 
 .line1{
 
     width: 470px;
     height: 3px;
     background-color: #ab3786;
-    margin-left: 500px;
+
 }
   .textcont{
 
@@ -290,7 +291,7 @@ header{
     margin-top: 100px;
 
   }
-
+/*Index swiper */
   .swiper-slide img{
 
     width: 100%;
@@ -443,7 +444,7 @@ header{
     width: 450px;
     height: 380px;
     padding :18px;
-   border-radius: 9px;
+   
    margin-left:50px;
    margin-top: 10px;
   
@@ -785,7 +786,7 @@ margin-left: 10px;
 
 }
 
-
+/*Index swiper */
  .swiper-slide h3{
     color: #553156;
     margin-top: -290px;
@@ -794,13 +795,18 @@ margin-left: 10px;
     margin-left: -340px;
     font-size: 25px;
  }
+ .imgagesfirstcare{
 
+  margin-left: -200px;
+ }
+ /*fist 3 images */
  .imgagesfirstcare img{
    
     width: 290px;
     height: 230px;
     margin-top: 20px;
     padding: 10px;
+    border-radius: 50px;
  }
 .aboutcontainer img{
 
@@ -961,7 +967,7 @@ font-size: 18px;
 
 
 
-
+/*Index swiper */
 
 .swiper-slide img {
   display: block;
@@ -1098,504 +1104,6 @@ color: #553156;
 
 
 
-  @media only screen and (max-width:1320px){
-
-
-    .about-imag img {
-    width: 400px;
-    }
-
-.broucher p{
-
-  
-
- font-size: 20px;
-
-margin-left: 300px;
-
-
-}
- 
- .download a{
-  font-size: 30px;
-  margin-left: 40%;
-  color:#e9688d;
-  
- 
- }
-    header{
-        padding: 0 50px;
-    }
-
-    
-
-    .cont img{
-   
-      object-fit:cover;
-       height: 500px;
-       width:100%;
-       object-fit: cover;
-    }
-
-    .contabout img{
-      object-fit:cover;
-       height: 500px;
-       width:100%;
-       object-fit: cover;
-    }
-
-    .contproducts img {
-      object-fit:cover;
-       height: 500px;
-       width:100%;
-       object-fit: cover;
-    }
-.contservice img{
-  object-fit:cover;
-       height: 500px;
-       width:100%;
-       object-fit: cover;
-}
-       /*main page*/
-
-       .services
-       {
-         
-         height:8%;
-         margin-top: 50px;
-         
-       }
-   
-       .text1
-   
-         {
-           font-size: 30px;
-           font-weight: 700;
-           letter-spacing: 8px;
-           margin-bottom: 20px ;
-   
-       }
-   
-       .aboutText p{
-           margin-top: 101px;
-           font-size: 19px;
-          
-          }
-   
-          .imgagesfirstcare img{
-      
-           width: 200px;
-           height: 150px;
-           margin-top: 20px;
-           padding: 3px;
-           margin-left: -70px;
-        }
-   
-        .aboutcontainer
-       {
-   
-     
-           margin-top: 120px;
-           font-size: 18px;
-     
-         }
-   
-         .aboutcontainer img{
-   
-           width: 204px;
-           height: 210px;
-           margin-top: 20px;
-           margin-left: -70px;
-           padding:40px;
-           border-radius: 50%;
-       }
-       .services-conta{
-   
-         width: 100%;
-       }
-   
-       .contentsec{
-   
-         width: 40%;
-       }
-       .contservice{
-   
-           
-           height: 300px;
-           object-fit: cover;
-       }
-   
-         .swiper-slide{
-            width: 100%;
-   
-         }
-   
-         .textcont{
-   
-           width:200px ;
-           font-size: 14px;
-           margin-top: 40%;
-         }
-   
-         
-   
-         /*about page*/
-   
-         .about p{
-   
-           font-size: 15px;
-           margin-top: 65px;
-        }
-   
-   
-        .about-image img{
-          
-           height: 250px;
-           display: block;
-          margin-left: 150px;
-          
-           
-       }
-   
-      .about-content{
-       font-size: 15px;
-       margin-top: 2px;
-       margin-left: 8px;
-      }
-        .about-content h1{
-            
-                
-                top:108%;
-                font-size: 20px;
-                margin-left: 2%;
-               
-        }
-        .about-content h4{
-          font-size: 10px; 
-          margin-left: 15%;
-          margin-top: 2%;
-          width: 80%;
-         
-  }
-
-  .about-contents h4{
-
-    font-size: 15px; 
-  }
-
-  .about-image2 img{
-
-    margin-top: -30%;
-  }
-
-
-  .about-content h3{
-    
-    font-size: 15px;
-    font-weight: 100;
-    text-align: center;
-    width: 50%;
-    
-    
-   
-}
-   
-        .col-footer h4{
-           font-size: 21px;
-        }
-   
-        .col-footer .list li a{
-   
-           font-size: 18px;;
-        }
-   
-        .line1{
-   
-           width: 240px;
-           height: 3px;
-           background-color: #ab3786;
-           margin-left: 500px;
-       }
-   
-       .swiper-slide img {
-           display: block;
-           width: 100%;
-           height: 40%;
-           object-fit: cover;
-         }
-   
-         .swiper-slide h3{
-          
-          
-           font-size: 18px;
-           left: -20px;
-          top: 100px;
-         }
-   
-       
-         /*service*/
-   
-         .service-carda{
-        
-           background: #f4e6e6;
-           width: 300px;
-           height:500px;
-           margin: 10px;
-           border-radius: 15px;
-           margin-top: 2%;
-           
-         
-           
-       
-       }
-       
-       .service-carda-image{
-           
-           height: 180px;
-           margin-bottom: 15px;
-          
-           
-       }
-       
-       .service-carda p{
-           padding: 10px;
-           font-size: 13px;
-       }
-       
-       .service-carda h2{
-       font-size: 18px;
-       }
-   
-       .service-carda{
-        
-           
-           width: 180px;
-           height:400px;
-           margin: 10px;
-           border-radius: 15px;
-           margin-top: 2%;
-           
-       
-       }
-   
-       .skincare{
-   
-           width: 10px;
-           display: flex;
-           margin-top: -50px;
-           margin-left: 00px;
-          
-          
-         }
-   
-   
-   .skincare img{
-   
-     width: 300px;
-     height: 300px;
-     padding :50px;
-    margin-left: 10px;
-    margin-top: 10px;
-    
-     
-     
-   }
-
-   .skincare2{
-   
-    width: 10px;
-    display: flex;
-    margin-top: -50px;
-    margin-left: 00px;
-   
-   
-  }
-
-
-.skincare2 img{
-
-width: 250px;
-height: 300px;
-padding :40px;
-margin-left: -50px;
-margin-top: 10px;
-
-
-
-}
-
-.skincare1{
-   
-  width: 10px;
-  display: flex;
-  margin-top: -50px;
-  margin-left: 00px;
- 
- 
-}
-
-
-.skincare1 img{
-
-width: 290px;
-height: 290px;
-padding :60px;
-margin-left: -90px;
-margin-top: 100px;
-
-
-
-}
-
-.skincare3{
-   
-  width: 10px;
-  display: flex;
-  margin-top: -50px;
-  margin-left: 00px;
- 
- 
-}
-
-
-.skincare3 img{
-
-width: 200px;
-height: 240px;
-padding :40px;
-margin-left: -45px;
-margin-top: 10px;
-
-
-
-}
-
-.textskin1{
-  width: 600px;
-  margin-left:0px;
-  
-
-}
-
-.textskin1 p{
-  width: 500px;
-  height: 150px;
-  padding :10px;
-  margin-top: -50px;
-  margin-bottom: -150px;
-  
-
-}
-.textskin2{
-  width: 600px;
-  margin-left:10px;
-  
-
-}
-
-.textskin2 p{
-  width: 500px;
-  height: 150px;
-  padding :10px;
-  margin-top: -50px;
-  font-size: 9px;
-  margin-bottom: -150px;
-  
-
-}
-   
-   .textskin{
-       width: 600px;
-       margin-left:0px;
-       margin-bottom: -150px;
-       
-   
-     }
-     
-     .textskin p{
-       width: 500px;
-       height: 150px;
-       padding :10px;
-       margin-top: -50px;
-       
-   
-     }
-   
-     .headingskin{
-       font-size: 18px;
-       margin-left: 15px;
-     }
-   
-     /*product*/
-   
-     .contproducts{
-     
-        height: 300px;
-     
-      
-     }
-
-     /*contact*/
-     .contair{
-    
-      
-      width: 50%; 
-      height:370px;
-      margin-left: 2%;
-     text-align: center;
-     margin-top: 199px;
-    
-  }
-  
-  .map iframe{
-  
-    margin-left: 55%;
-     width: 40%;
-     margin-top: -4000px;
-     height: 380px;
-     
-
-
-    
-     
-  
-  }
-
-  
-  
-  .ma1{
-      margin-top: -20%;
-      height: 100%;
-  }
-  
-  .contact-form i.fa{
-      font-size: 12px;
-      
-  }
-  
-  
-  
-  
-  .social-links i.fab{
-  
-      font-size: 12px;
-   
-  }
-  
-  .social-links i.fab:hover{
-      cursor: pointer;  
-      border: 2px solid #211f1f;
-      color: #3a3737;
-    }
-  
-
-
-}
-
-
-
-
-
 @media only screen and (max-width:1270px){
 
     header{
@@ -1624,6 +1132,7 @@ margin-top: 10px;
         font-size: 19px;
        
        }
+       /*fist 3 images */
 
        .imgagesfirstcare img{
    
@@ -1631,7 +1140,7 @@ margin-top: 10px;
         height: 180px;
         margin-top: 20px;
         padding: 3px;
-        margin-left: -40px;
+       
      }
 
      .aboutcontainer
@@ -1772,12 +1281,13 @@ font-weight: 100;
         font-size: 16px;;
      }
 
+     /*Line under heading*/
      .line1{
 
         width: 240px;
         height: 3px;
         background-color: #ab3786;
-        margin-left: 495px;
+      
     }
 
     .swiper-slide img {
@@ -1945,7 +1455,9 @@ font-weight: 100;
 
 
 @media only screen and (max-width:1100px){
+.cont{
 
+}
   header{
       padding: 0 30px;
   }
@@ -1972,21 +1484,25 @@ font-weight: 100;
       font-size: 19px;
      
      }
-
+     /*fist 3 images section */
+     .imgagesfirstcare {
+      margin-left: -80px;
+     }
+     /*fist 3 images */
      .imgagesfirstcare img{
  
       width: 260px;
       height: 180px;
       margin-top: 20px;
       padding: 3px;
-      margin-left: -40px;
+      margin-left: -4px;
    }
-
+/*about index */
    .aboutcontainer
   {
 
 
-      margin-top: 120px;
+      margin-top: 10px;
       font-size: 18px;
 
     }
@@ -2014,11 +1530,11 @@ font-weight: 100;
       height: 300px;
       object-fit: cover;
   }
-
+/*image cover  */
   .cont img{
      
   
-       height: 300px;
+       
        object-fit:fill;
        
     }
@@ -2027,11 +1543,13 @@ font-weight: 100;
 
     }
 
+    /*top left words on index */
+
     .textcont{
 
       width:200px ;
       font-size: 14px;
-      margin-top:23%;
+      margin-top:-90px;
     }
 
     
@@ -2078,18 +1596,19 @@ font-weight: 100;
       font-size: 16px;;
    }
 
+   /*Line under heading*/
    .line1{
 
       width: 240px;
       height: 3px;
       background-color: #ab3786;
-      margin-left: 360px;
+      
   }
-
+/*Index swiper */
   .swiper-slide img {
       display: block;
-      width: 100%;
-      height: 40%;
+      width: 60%;
+      height: 70%;
       object-fit: cover;
     }
 
@@ -2336,33 +1855,34 @@ margin-left: 55%;
 
   }
 
+  /*first test */
   .aboutText p{
       margin-top: 150px;
-      font-size: 19px;
+      font-size: 14px;
      
      }
-
+/*fist 3 images */
      .imgagesfirstcare img{
  
-      width: 220px;
+      width: 200px;
       height: 160px;
       margin-top: 20px;
-      padding: 3px;
-      margin-left: -20px;
+      padding: px;
+      
    }
-
+/*about on index */
    .aboutcontainer
   {
 
 
-      margin-top: 120px;
-      font-size: 18px;
+      margin-top: 10px;
+      font-size: 14px;
 
     }
-
+/*about on index */
     .aboutcontainer img{
 
-      width: 240px;
+      width: 200px;
       height: 220px;
       margin-top: 20px;
       margin-left: -40px;
@@ -2403,10 +1923,13 @@ margin-left: 55%;
     height: 10%;
        
     }
+    /*Index swiper */
     .swiper-slide{
        width: 100%;
+       margin-left: 10px;
 
     }
+  
 
     .textcont{
 
@@ -2453,22 +1976,24 @@ margin-left: 55%;
 
       font-size: 16px;;
    }
-
+/*Line under heading*/
    .line1{
 
       width: 240px;
       height: 3px;
       background-color: #ab3786;
-      margin-left: 300px;
+    
   }
+  /*Index swiper */
 
   .swiper-slide img {
       display: block;
-      width: 100%;
+      width: 90%;
       height: 50%;
       object-fit: cover;
+      margin-left: 22px;
     }
-
+/*Index swiper */
     .swiper-slide h3{
      
      
@@ -2635,18 +2160,18 @@ margin-left: 55%;
   margin-left: 0px;
   font-size: 20px;
 }
-
+  /*About mission*/
 .about-content h4{
 
   margin-left: 0px;
-  font-size: 15px;
+  font-size: 13px;
   margin-top: -5%;
 }
-
+ /*About mission first image*/
 .about-image img{
 
   margin-left: 0px;
-  height: 20%;
+  height: 50%;
 }
 
 .about-contents h4{
@@ -2678,7 +2203,7 @@ margin-left: 55%;
        
       background-size:cover;
       display: flex;
-      height: 450px;
+      height: 350px;
          
          
       }
@@ -2694,7 +2219,7 @@ margin-left: 55%;
         width: 150px;
         height: 3px;
         background-color: #ab3786;
-        text-align: center;
+        
     }
 
      /*Heading  */
@@ -2722,34 +2247,32 @@ margin-left: 55%;
      /*About tetx*/
     .aboutText p{
       margin-top: 110px;
-      font-size: 15px;
+      font-size: 14px;
      
      }
    /*3 image at the bottom of the about */
-   .imgagesfirstcare{
-   
-    width: 950px;
-    height: 900px;
-    margin-left: -250px;
-   
-    
-    
- }
+   /*3 images */
 
-   
-   .imgagesfirstcare img{
-   
-      width: 600px;
-      height: 970px;
-      
-      
-      
+   .imgagesfirstcare{
+
+    width: 705px;
+    margin-left: -170px;
    }
+   /*fist 3 images */
+       .imgagesfirstcare img{
+   
+        width: 180px;
+        height: 150px;
+        margin-top: 20px;
+        padding: 3px;
+        margin-left: 10px;
+     }
 
    /*circular image */
 .imgagesKin{
 
-  width: 400px;
+  width: 600px;
+  margin-left: -100px;
 
   
 }
@@ -2787,16 +2310,14 @@ margin-left: 55%;
  
  }
    
-
-   
-
+/*Text on top on the circle pics */
 
 
      .aboutcontainer
     {
 
   
-        margin-top: 120px;
+        margin-top: -70px;
         font-size: 15px;
   
       }
@@ -2828,10 +2349,16 @@ margin-left: 55%;
    }
   
 
-    
+    /*Index swiper */
       .swiper-slide{
-         width: 100%;
+         width: 10%;
+         margin-bottom: 10px;
 
+      }
+    /* swiper contact */
+      .swiper-wrapper{
+
+        margin-top: -60px;
       }
 
       .textcont{
@@ -2873,7 +2400,8 @@ margin-left: 55%;
 
    .about-imag img{
 
-    width: 300px;
+    width: 250px;
+    height: 300px;
    }
 .about-contents h1{
 
@@ -2883,6 +2411,7 @@ margin-left: 55%;
 .about-contents h4{
 margin-left: 240px;
 width: 55%;
+font-size: 13px;
 
 }
    .about-content{
@@ -2893,7 +2422,7 @@ width: 55%;
      .about-content h1{
          
              
-             margin-top: -31%;
+             margin-top: -41%;
              font-size: 20px;
              
              
@@ -2910,12 +2439,13 @@ width: 55%;
      }
 
     
-
+/*Index swiper */
     .swiper-slide img {
         display: block;
         width: 100%;
         height: 40%;
         object-fit: cover;
+        margin-top: -10px;
       }
 
       .swiper-slide h3{
@@ -2923,7 +2453,8 @@ width: 55%;
        
         font-size: 15px;
         left: -20px;
-       top: 100px;
+        top: 100px;
+        margin-bottom: 10px;
       }
 
     
@@ -3156,14 +2687,14 @@ width: 55%;
         font-size: 15px;
        
        }
-
+/*fist 3 images */
        .imgagesfirstcare img{
    
         width: 140px;
         height: 130px;
         margin-top: 20px;
         padding: 3px;
-        margin-left: -40px;
+        
         margin-bottom: 10px;
      }
 
@@ -3171,7 +2702,7 @@ width: 55%;
     {
 
   
-        margin-top: 50px;
+        margin-top:-90px;
         font-size: 15px;
   
       }
@@ -3216,6 +2747,7 @@ width: 55%;
          object-fit: cover;
          
       }
+      /*Index swiper */
       .swiper-slide{
          width: 100%;
 
@@ -3260,8 +2792,21 @@ width: 55%;
 
    .about-imag img{
 
-    width: 300px;
+    width: 200px;
+    height: 250px;
+    margin-left: 300px;
+    margin-top: -200px;
    }
+   
+
+   .about-content h4{
+
+    margin-left: -10px;
+    font-size: 10px;
+    margin-top: -2%;
+    width:300px;
+  }
+    /*about section on mission */
 .about-contents h1{
 
   margin-left: 240px;
@@ -3270,12 +2815,13 @@ width: 55%;
 .about-contents h4{
 margin-left: 240px;
 width: 55%;
+font-size: 12px;
 
 }
    .about-content{
-    font-size: 15px;
+    font-size: 5px;
     margin-top: 2px;
-    margin-left: 8px;
+    margin-left: 1px;
    }
      .about-content h1{
          
@@ -3296,14 +2842,15 @@ width: 55%;
         font-size: 13px;;
      }
 
+     /*Line under heading*/
      .line1{
 
         width: 160px;
         height: 3px;
         background-color: #ab3786;
-        margin-left: 180px;
+       
     }
-
+/*Index swiper */
     .swiper-slide img {
         display: block;
         width: 100%;
@@ -3461,9 +3008,9 @@ width: 55%;
 
    .imgagesfirstcare{
 
-    margin-left: -340px;
+    margin-left: -240px;
    }
-   
+   /*fist 3 images */
        .imgagesfirstcare img{
    
         width: 119px;
@@ -3479,12 +3026,12 @@ width: 55%;
     {
 
   
-        margin-top: 70px;
+        margin-top: 100px;
         font-size: 15px;
         margin-left: 50px;
   
       }
-
+    /*Images below the paragraphs*/
       .aboutcontainer img{
 
         width: 160px;
@@ -3509,7 +3056,7 @@ width: 55%;
         object-fit: cover;
     }
 
-    
+    /*Index swiper */
       .swiper-slide{
          width: 100%;
 
@@ -3598,15 +3145,16 @@ width: 55%;
 
         font-size: 13px;;
      }
-
+    
+/*Line under heading*/
      .line1{
 
-        width: 240px;
+        width: 150px;
         height: 3px;
         background-color: #ab3786;
-        margin-left: 100px;
+       
     }
-
+/*Index swiper */
     .swiper-slide img {
         display: block;
         width: 130px;
@@ -3685,6 +3233,7 @@ width: 55%;
   padding :10px;
  margin-left: 10px;
  margin-top: 10px;
+ border-radius: 10px;
  
   
   
@@ -3730,6 +3279,7 @@ margin-left: 10px;
   margin-left: -40px;
   margin-top: 10px;
   margin-bottom: 40px;
+  border-radius: 10px;
 
 }
 .textskin1{
@@ -3747,6 +3297,7 @@ margin-left: 10px;
   padding :15px;
   margin-left: -7px;
   margin-top: -10px;
+  border-radius: 10px;
   
   }
   .textskin3{
@@ -3976,6 +3527,7 @@ margin-left: 5%;
   width: 400px;
   margin-left: -90px;
 }
+/*fist 3 images */
 .imgagesfirstcare img{
    
     width: 110px;
@@ -3991,7 +3543,7 @@ margin-left: 5%;
 
         font-size: 15px;
         margin-left: 70px;
-        margin-top:-200px;
+        margin-top:-30px;
   
       }
 
@@ -4025,6 +3577,10 @@ margin-left: 5%;
          width: 100%;
 
       }
+      .swiper-slide img{
+        width: 100%;
+
+     }
 
       .textcont{
 
@@ -4033,7 +3589,43 @@ margin-left: 5%;
         margin-top: -14%;
       }
 
-      
+
+
+  .swiper{
+    margin-top: 110px;
+  }
+  .swiper-wrapper {
+  width: 90%;
+  height: 70%;
+  margin-top: -20px;
+  margin-bottom: -110px;
+  padding: -10px;
+  margin-left: -190px;
+  
+
+}
+
+.swiper-wrapper img{
+ margin-left:2000px;
+ margin-top: -0px;
+ border-radius: 50px;
+ padding: 10px;
+ 
+  
+
+}
+
+.swiper-slide h3{
+  text-align: center;
+  font-size: 10px;
+  padding-left: 300px;
+  margin-left: -10px;
+ 
+  
+
+ 
+}
+
 
       /*about page*/
 
@@ -4077,7 +3669,7 @@ margin-left: 5%;
      .about-imag{
 
       margin-left: 205px;
-      margin-top: -90%;
+      margin-top: -10%;
       
 
      }
@@ -4100,7 +3692,7 @@ margin-left: 5%;
      .about-content h1{
          
            margin-left:-50%;
-             top:72%;
+             top:2%;
              font-size: 15px;
              
              
@@ -4120,23 +3712,25 @@ margin-left: 5%;
         font-size: 13px;;
      }
 
+     /*Line under heading*/
+
      .line1{
 
         width: 240px;
         height: 3px;
         background-color: #ab3786;
-        margin-left: 60px;
+       
     }
-
+/*Index swiper */
     .swiper-slide img {
         display: block;
         width: 130px;
         height: 50%;
         object-fit: cover;
         padding: -20px;
-        margin-left: 200px;
+        margin-left: 100px;
       }
-
+/*Index swiper */
       .swiper-slide h3{
        
        
@@ -4213,6 +3807,7 @@ margin-left: 5%;
   padding :30px;
  margin-left: -18px;
  margin-top: 20px;
+ border-radius: 10px;
  
   
   
@@ -4237,6 +3832,7 @@ margin-left: 5%;
  margin-left: -55px;
  margin-top: -180px;
  margin-bottom: -900px;
+ border-radius: 10px;
  
 }
 
@@ -4254,6 +3850,7 @@ margin-left: 5%;
   padding :30px;
  margin-left: -18px;
  margin-top: -70px;
+ border-radius: 10px;
  
   
 }
