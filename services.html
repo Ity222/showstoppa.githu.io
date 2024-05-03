@@ -20,120 +20,64 @@
       }
   
       body {
-  
+        background: #eee;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
         color: #000;
         margin: 0;
         padding: 0;
       }
-  .swiper-wrapper{
-
-    width: 10%;
-  }
+  
       .swiper {
-        width: 60%;
-        height: 50%;
-        margin-top: -17px;
-        margin-left: 100px;
-        margin-bottom: -120px;
+        width: 100%;
+        height: 100%;
       }
   
       .swiper-slide {
         text-align: center;
         font-size: 18px;
-        margin-top: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+      .swiper-slide h3{
+        margin-top: 350px;
+        font-size: 12px;
       }
   
       .swiper-slide img {
         display: block;
         width: 50%;
-        height: 70%;
+        height: 50%;
         object-fit: cover;
-        border-radius: 20px;
-        margin-left: 10px;
-        
-        
+        border-radius: 10px;
+        margin-bottom: -50px;
       }
-
-      .swiper-slide h3{
-
-        color: #29222a;
-    margin-top: 300px;
-    width: 100%;
-    display: flex;
-    margin-left: -340px;
-    font-size: 14px;
-  }
-
-   
-
-  @media screen and (max-width:780px)
-{
-  .swiper {
-  width: 95%;
-  height: 70%;
-  border-radius: 15px;
-  margin-top: 90px;
-  margin-bottom: -110px;
-
-}
-
-.swiper-slide h3{
-  text-align: center;
-  font-size: 15px;
-  padding-left: 500px;
- 
-
-}
-
-}
-
-
-
-@media screen and (max-width:400px)
-{
-
-  .swiper{
-    margin-top: 10px;
-  }
-  .swiper-wrapper {
-  width: 90%;
-  height: 70%;
-  margin-top: 20px;
-  margin-bottom: -110px;
-  padding: -10px;
   
-
-}
-
-.swiper-wrapper img{
- margin-left:-20px;
- margin-top: -90px;
- border-radius: 50px;
- padding: 10px;
- 
+      .swiper {
+        width: 100%;
+        height: 500px;
+        margin: 20px auto;
+        margin-top: -100px;
+        margin-bottom: -120px;
+      }
   
-
-}
-
-.swiper-slide h3{
-  text-align: center;
-  font-size: 10px;
-  padding-left: 500px;
- 
+      .append-buttons {
+        text-align: center;
+        margin-top: 20px;
+      }
   
-
- 
-}
-
-
-}
- 
-      
+      .append-buttons button {
+        display: inline-block;
+        cursor: pointer;
+        border: 1px solid #007aff;
+        color: #007aff;
+        text-decoration: none;
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin: 0 10px;
+        font-size: 13px;
+      }
     </style>
 </head>
 <body>
@@ -224,8 +168,7 @@
   </div>
   <div class="textskin">
     <p><b><i>Hydration facial</i></b> Our treatment is designed to replenish moisture, leaving your skin dewy, plump, and radiant.<br><br><b>R 250.00</b>  </p>
-    <p><b><i>Algea Peel</i></b> Harness the power of LED light therapy, proven to have anti-inflammatory and antibacterial 
-      properties. This non-invasive treatment can help reduce acne-related redness and promote a clearer complexion.<br><b>R 250.00</b>  </p>
+    <p><b><i>Algea Peel</i></b> Harness the power of LED light therapy, proven to have anti-inflammatory . This non-invasive treatment can help reduce acne-related redness and promote a clearer complexion.<br><b>R 250.00</b>  </p>
   
     <p><b><i>Acne Skin Treatement</i></b> With a personalized approach, we offer a range of advanced therapies and proven solutions to combat acne, reduce inflammation, and promote lasting clarity. .<br> <b>R 250.00</b> </p>
 </div>
@@ -280,10 +223,7 @@
   <center><div class="line1"></div></center>
 
 </div>
-<p>
-  <center><button type="button" class="btn btn-secondary">View catalogue wig prices </button></center>
 
-</p>
 
 
 
@@ -291,38 +231,60 @@
 
 
 <div class="headingskin">
-  Straight Frontal pricing per inc 
+  Straight Frontal pricing per inch
 </div>
+<p>
+  <center><button type="button" class="btn btn-secondary">View catalogue wig prices </button></center>
 
+</p>
+<!-- Swiper -->
 
-
-<div class="swiper mySwiper">
+<div #swiperRef="" class="swiper mySwiper">
   <div class="swiper-wrapper">
-   <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/skincc.webp" alt=""></div>
-    <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
-    <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/nail.jpg" alt=""></div>
-   <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/beauty.jpg" alt=""> 
-   </div>
-   
+    <div class="swiper-slide"><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 22inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 20inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 18inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 16inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 14inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 12inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 10inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
   </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
 </div>
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+
+
+
 <div class="headingskin">
-  Curly Frontal pricing per inc 
+  Curly Frontal pricing per inch 
 </div>
+<!-- Swiper -->
 
-
-<div class="swiper mySwiper">
+<div #swiperRef="" class="swiper mySwiper">
   <div class="swiper-wrapper">
-   <div class="swiper-slide"><h3>R1500 22inc  </h3><img src="img/skincc.webp" alt=""></div>
-    <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
-    <div class="swiper-slide"><h3>R1500 22inc</h3><img src="img/nail.jpg" alt=""></div>
-   <div class="swiper-slide"><h3>R1500 22inc </h3><img src="img/beauty.jpg" alt=""> 
-   </div>
-   
+    <div class="swiper-slide"><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 22inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 20inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 18inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 16inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 14inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 12inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500 10inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
   </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
 </div>
+
 
 
 
@@ -375,26 +337,57 @@
 
 
 
-<!-- Swiper JS -->
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
 <script>
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
-    spaceBetween: 20,
+    centeredSlides: true,
+    spaceBetween: 30,
     pagination: {
-      el: "swiper-pagination",
-      clickable: true,
+      el: ".swiper-pagination",
+      type: "fraction",
     },
-    loop:true,
-     autoplay: {
-        delay: 3500,
-        disableOnInteraction: false,
-      },
-    
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
   });
+
+  var appendNumber = 4;
+  var prependNumber = 1;
+  document
+    .querySelector(".prepend-2-slides")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.prependSlide([
+        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+      ]);
+    });
+  document
+    .querySelector(".prepend-slide")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.prependSlide(
+        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+      );
+    });
+  document
+    .querySelector(".append-slide")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.appendSlide(
+        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+      );
+    });
+  document
+    .querySelector(".append-2-slides")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.appendSlide([
+        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+      ]);
+    });
 </script>
 
 <script>

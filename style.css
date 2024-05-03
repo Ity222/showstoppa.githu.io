@@ -335,10 +335,12 @@ header{
   }
   
   .textskin p{
-    width: 500px;
+    width: 400px;
     height: 2px;
-    padding :55px;
-    margin-top: -50px;
+    padding :50px;
+    margin-top: -70px;
+    margin-left: 60px;
+    font-size: 13px;
   }
   .textskin2{
     width: 1400px;
@@ -370,12 +372,18 @@ header{
   .textskin1{
     width: 1300px;
     display: flex;
-    margin-left:190px;
+    margin-left:40px;
     
 
   }
   
   .textskin1 p{
+    width: 400px;
+    height: 2px;
+    padding :50px;
+    margin-top: -70px;
+    margin-left: 60px;
+    font-size: 13px;
     width: 400px;
     height: 200px;
     padding :55px;
@@ -387,10 +395,22 @@ header{
     display: flex;
     margin-top: -50px;
     margin-left: 40px;
+    margin-left: 20px;
    
    
   }
   .skincare1{
+
+    width: 10px;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-left: 20px;
+   
+   
+  }
+
+  .skincare2{
 
     width: 10px;
     display: flex;
@@ -402,30 +422,32 @@ header{
 
   .skincare img{
 
-    width: 450px;
-    height: 330px;
-    padding :28px;
+    width: 350px;
+    height: 250px;
+    padding :40px;
     margin-top: -10px;
    border-radius: 9px;
+   margin-left: 90px;
+  
   
   }
   .skincare2 img{
 
-    width: 450px;
-    height: 330px;
-    padding :28px;
-    margin-top: 8px;
+    width: 350px;
+    height: 250px;
+    padding :40px;
+    margin-top: -40px;
    border-radius: 9px;
-   margin-bottom: 20px;
+   margin-left:90px;
   
   }
   .skincare1 img{
 
-    width: 450px;
-    height: 380px;
-    padding :18px;
+    width: 350px;
+    height: 250px;
+    padding :40px;
    border-radius: 9px;
-   margin-left:50px;
+   margin-left:90px;
    margin-top: 10px;
   
   }
@@ -433,19 +455,19 @@ header{
 
     width: 10px;
     display: flex;
-    margin-top: -100px;
+    margin-top: -150px;
     margin-left: 40px;
+   
    
    
   }
   
   .skincare3 img{
 
-    width: 450px;
-    height: 380px;
-    padding :18px;
-   
-   margin-left:50px;
+    width: 350px;
+    height: 250px;
+    padding :40px;
+   margin-left:90px;
    margin-top: 10px;
   
   }
@@ -1136,7 +1158,7 @@ color: #553156;
 
        .imgagesfirstcare img{
    
-        width: 260px;
+        width: 240px;
         height: 180px;
         margin-top: 20px;
         padding: 3px;
@@ -1454,7 +1476,8 @@ font-weight: 100;
 }
 
 
-@media only screen and (max-width:1100px){
+@media only screen and (max-width:1100px)
+{
 .cont{
 
 }
@@ -1487,6 +1510,7 @@ font-weight: 100;
      /*fist 3 images section */
      .imgagesfirstcare {
       margin-left: -80px;
+      width: 800px;
      }
      /*fist 3 images */
      .imgagesfirstcare img{
@@ -1571,16 +1595,42 @@ font-weight: 100;
      
       
   }
+  .about-image2 img{
+    
+     margin-left: -110px;
+    margin-top: -140px;
+     
+ }
 
+ .about-imag img{
+    
+ width: 220px;
+ height: 260px;
+ margin-left: 50px;
+  
+}
+  .about-contents h1{
+    position: absolute;
+   margin-top: 40px;
+    font-size: 20px;
+    margin-left: 350px;
+   }
+
+   .about-contents h4{
+    
+   margin-top: 80px;
+    font-size: 15px;
+    margin-left:350px;
+   }
  .about-content{
   font-size: 15px;
   margin-top: 2px;
-  margin-left: 8px;
+  margin-left: -190px;
  }
    .about-content h1{
        
            position: absolute;
-           top:112%;
+           top:120%;
            font-size: 20px;
            
            
@@ -1862,6 +1912,10 @@ margin-left: 55%;
      
      }
 /*fist 3 images */
+.imgagesfirstcare{
+
+  margin-left: -150px;
+}
      .imgagesfirstcare img{
  
       width: 200px;
@@ -1957,16 +2011,14 @@ margin-left: 55%;
   margin-left: 8px;
  }
   
- .about-content h1{
-  font-size: 15px;
-  margin-top: -15px;
-  margin-left: 8px;
- }
+ 
   
  
 .about-imag img {
 
-  width: 300px;
+  width: 250px;
+  height: 300px;
+  margin-left: -40px;
 }
    .col-footer h4{
       font-size: 21px;
@@ -2159,18 +2211,19 @@ margin-left: 55%;
 
   margin-left: 0px;
   font-size: 20px;
+  margin-top: -50px;
 }
   /*About mission*/
 .about-content h4{
 
   margin-left: 0px;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: -5%;
 }
  /*About mission first image*/
 .about-image img{
 
-  margin-left: 0px;
+  margin-left: -100px;
   height: 50%;
 }
 
@@ -2256,11 +2309,13 @@ margin-left: 55%;
    .imgagesfirstcare{
 
     width: 705px;
-    margin-left: -170px;
+    margin-left: -190px;
+   
+    
    }
    /*fist 3 images */
        .imgagesfirstcare img{
-   
+        
         width: 180px;
         height: 150px;
         margin-top: 20px;
@@ -2771,14 +2826,7 @@ font-size: 13px;
      }
 
 
-     .about-image img {
-      
-        height: 300px;
-        display: block;
-        margin-left: -11px;
-       
-        
-    }
+     
 
     .about-image2 img {
       width: 250px;
@@ -2794,7 +2842,7 @@ font-size: 13px;
 
     width: 200px;
     height: 250px;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: -200px;
    }
    
@@ -2804,7 +2852,7 @@ font-size: 13px;
     margin-left: -10px;
     font-size: 10px;
     margin-top: -2%;
-    width:300px;
+    width:200px;
   }
     /*about section on mission */
 .about-contents h1{
@@ -2822,11 +2870,12 @@ font-size: 12px;
     font-size: 5px;
     margin-top: 2px;
     margin-left: 1px;
+   
    }
      .about-content h1{
          
              
-             margin-top: -31%;
+             margin-top: -45%;
              font-size: 20px;
              
              
@@ -3651,13 +3700,13 @@ margin-left: 5%;
 
         font-size: 19px;
         width: 170px;
-        margin-left: 165px;
+        margin-left: 140px;
       }
       .about-contents h4{
 
         font-size: 10px;
         width: 160px;
-        margin-left: 160px;
+        margin-left: 140px;
       }
       .about p{
 
@@ -3675,13 +3724,14 @@ margin-left: 5%;
      }
      .about-imag img{
 
-      width: 200px;
-      height: 260px;
+      width: 150px;
+      height: 200px;
+      margin-left: -45px;
       
      }
     .about-image2 img{
-      width: 200px;
-      height: 260px;
+      width: 150px;
+      height: 200px;
       margin-top: -240px;
     }
    .about-content{
@@ -3692,8 +3742,9 @@ margin-left: 5%;
      .about-content h1{
          
            margin-left:-50%;
-             top:2%;
+             top:85%;
              font-size: 15px;
+             
              
              
             
