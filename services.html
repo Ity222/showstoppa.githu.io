@@ -29,38 +29,40 @@
       }
   
       .swiper {
-        width: 100%;
-        height: 100%;
-      }
+  width: 60%;
+  height: 40%;
+  border-radius: 15px;
+ 
+  margin-top: -20px;
+  margin-bottom: -80px;
+
+}
+
+.swiper-wrapper img{
+
+ border-radius: 20px;
+ 
   
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .swiper-slide h3{
-        margin-top: 350px;
-        font-size: 12px;
-      }
+
+}
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 50px;
+ 
   
-      .swiper-slide img {
-        display: block;
-        width: 50%;
-        height: 50%;
-        object-fit: cover;
-        border-radius: 10px;
-        margin-bottom: -50px;
-      }
-  
-      .swiper {
-        width: 100%;
-        height: 500px;
-        margin: 20px auto;
-        margin-top: -100px;
-        margin-bottom: -120px;
-      }
+}
+
+.swiper-slide h3{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -200px;
+
+ 
+}
   
       .append-buttons {
         text-align: center;
@@ -78,6 +80,53 @@
         margin: 0 10px;
         font-size: 13px;
       }
+
+      @media screen and (max-width:600px)
+{
+    /*main page*/
+    .swiper {
+  width: 90%;
+  height: 60%;
+  border-radius: 15px;
+  padding :10px;
+  margin-top: 20px;
+  margin-bottom: -165px;
+
+}
+
+.swiper-slide h3{
+  font-size: 10px;
+  margin-top: 250px;
+
+ 
+}
+
+    
+  }
+
+  @media screen and (max-width:458px)
+{
+    /*main page*/
+    .swiper {
+  width: 70%;
+  height: 50%;
+  border-radius: 15px;
+  padding :10px;
+  margin-top: 20px;
+  margin-bottom: -165px;
+ 
+}
+
+.swiper-slide h3{
+  font-size: 10px;
+  margin-top: 250px;
+
+ 
+}
+
+
+    
+  }
     </style>
 </head>
 <body>
@@ -166,7 +215,7 @@
     <img src="img/acnee.jpeg" alt="">
     
   </div>
-  <div class="textskin">
+  <div class="textskin2">
     <p><b><i>Hydration facial</i></b> Our treatment is designed to replenish moisture, leaving your skin dewy, plump, and radiant.<br><br><b>R 250.00</b>  </p>
     <p><b><i>Algea Peel</i></b> Harness the power of LED light therapy, proven to have anti-inflammatory . This non-invasive treatment can help reduce acne-related redness and promote a clearer complexion.<br><b>R 250.00</b>  </p>
   
@@ -179,40 +228,35 @@
 
   <center><div class="line1"></div></center>
 
+</div><br>
+<div #swiperRef="" class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/10.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/10.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/11.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/7.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/12.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/8.jpg" alt=""></div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  
 </div>
+
 <br>
-<div class="skincare1">
-  <img src="img/12-removebg-preview.png" alt="">
-  <img src="img/skin/10-removebg-preview.png" alt="">
-  <img src="img/skin/7-removebg-preview.png" alt="">
-  <img src="img/skin/7-removebg-preview.png" alt="">
-</div>
-
-<div class="textskin1">
-  <p>Product 1<br><b>R00,00</b> . . </p>
-<p>Product 2 <br>R00,00 .</p>
-<p>Product 3 <br>R00,00 .</p>
-<p>Product 4 <br>R00,00 .</p></div>
-
-</div>
-<br>
-<div class="skincare3">
-
-  <img src="img/skin/12.jpg" alt="">
-  <img src="img/skin/4.jpg" alt="">
-  <img src="img/skin/5.jpg" alt="">
-  <img src="img/skin/5.jpg" alt="">
-  
-  
-  
-</div>
-<div class="textskin2">
-<p>Product<br>R00,00. </p>
-<p>Product <br> R00,00.</p>
-<p>Product <br> R00,00.</p>
-<p>Product <br> R00,00.</p>
-
-</div>
+<div #swiperRef="" class="swiper mySwiper">
+  <div class="swiper-wrapper">
+     <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/10-removebg-preview.png" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/3.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/5.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/6.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/9.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/4.jpg" alt=""></div>
+    <div class="swiper-slide"><h3>R1500</h3><img src="img/skin/7.jpg" alt=""></div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 
 </div>
 
@@ -241,7 +285,6 @@
 
 <div #swiperRef="" class="swiper mySwiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
     <div class="swiper-slide"><h3>R1500 22inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
     <div class="swiper-slide"><h3>R1500 20inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
     <div class="swiper-slide"><h3>R1500 18inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
@@ -252,7 +295,7 @@
   </div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
-  <div class="swiper-pagination"></div>
+ 
 </div>
 
 
@@ -271,8 +314,7 @@
 
 <div #swiperRef="" class="swiper mySwiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
-    <div class="swiper-slide"><h3>R1500 22inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
+     <div class="swiper-slide"><h3>R1500 22inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
     <div class="swiper-slide"><h3>R1500 20inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
     <div class="swiper-slide"><h3>R1500 18inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
     <div class="swiper-slide"><h3>R1500 16inch</h3><img src="img/WhatsApp Image 2024-04-24 at 11.25.48_967551f4.jpg" alt=""></div>
@@ -282,7 +324,7 @@
   </div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
-  <div class="swiper-pagination"></div>
+  
 </div>
 
 
@@ -293,7 +335,7 @@
   
   
   <div class="headingskin">
-    Makeup Pedecure <br>and Panicure
+   <center>Makeup Pedecure <br>and Panicure</center> 
   </div><br>
   <div class="skincare">
   
@@ -436,9 +478,8 @@
           </div>
       </div>
   </div>
-
-
 </footer>
+
 
 </body>
 </html>

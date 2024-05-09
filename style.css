@@ -1553,7 +1553,10 @@ font-weight: 100;
       
       height: 300px;
       object-fit: cover;
+      margin-bottom: 200px;
+     
   }
+ 
 /*image cover  */
   .cont img{
      
@@ -1720,8 +1723,9 @@ font-weight: 100;
 
       width: 10px;
       display: flex;
-      margin-top: -50px;
-      margin-left: 170px;
+      margin-top: 90px;
+      margin-left: -10px;
+     
      
      
     }
@@ -1729,7 +1733,7 @@ font-weight: 100;
 
 .skincare img{
 
-width: 400px;
+width: 350px;
 height: 300px;
 padding :50px;
 margin-left: 10px;
@@ -1738,18 +1742,59 @@ margin-left: 10px;
 
 }
 .textskin{
-  width: 800px;
-  margin-left:220px;
+  width: 1000px;
+  margin-left:-10px;
   
 
 }
 
 .textskin p{
-  width: 500px;
+  width: 700px;
   height: 150px;
   padding :10px;
   margin-top: -50px;
+  margin-left:80px;
   
+
+}
+
+
+.skincare2{
+
+  width: 10px;
+  display: flex;
+  margin-top: -10px;
+  margin-left: -10px;
+ 
+ 
+ 
+}
+
+
+.skincare2 img{
+
+width: 350px;
+height: 300px;
+padding :50px;
+margin-left: 10px;
+
+
+
+}
+.textskin2{
+width: 1000px;
+margin-left:-10px;
+
+
+}
+
+.textskin2 p{
+width: 700px;
+height: 150px;
+padding :10px;
+margin-top: -50px;
+margin-left:80px;
+
 
 }
 
@@ -2564,7 +2609,6 @@ font-size: 13px;
     margin-top: -50px;
     
    
-   
   }
 
 .skincare img{
@@ -2881,7 +2925,9 @@ font-size: 12px;
              
             
      }
-
+.footer{
+  width: 100%;
+}
      .col-footer h4{
         font-size: 17px;
      }
@@ -2960,31 +3006,30 @@ font-size: 12px;
         
     
     }
-
+ /*First image rows*/
     .skincare{
 
         width: 10px;
         display: flex;
-        margin-top: -50px;
+        margin-top: -30px;
         margin-left: 5px;
        
        
       }
-
-
+/*First image rows*/
 .skincare img{
 
-  width: 190px;
-  height: 160px;
+  width: 150px;
+  height: 140px;
   padding :10px;
-  margin-left: -5px;
+  margin-left: 10px;
+  border-radius: 10px;
  
-  
   
 }
 .textskin{
-    width: 570px;
-    margin-left:-15px;
+    width: 480px;
+    margin-left:-1px;
   }
   
   .textskin p{
@@ -2996,6 +3041,85 @@ font-size: 12px;
     
 
   }
+
+  /*First image rows*/
+  .skincar2{
+
+    width: 10px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 5px;
+   
+   
+  }
+/*second row image rows*/
+.skincare2 img{
+
+width: 150px;
+height: 140px;
+padding :10px;
+margin-left: 10px;
+border-radius: 10px;
+margin-top:60px;
+
+
+}
+/*second row words rows*/
+.textskin2{
+  width: 480px;
+  margin-left:-1px;
+}
+
+.textskin2 p{
+  width: 500px;
+  height: 150px;
+  padding :5px;
+  margin-top: 10px;
+  font-size: 10px;
+  margin-bottom: -60px;
+  
+
+}
+
+.skincar1{
+
+  width: 10px;
+  display: flex;
+  margin-top: -30px;
+  margin-left: 5px;
+ 
+ 
+}
+/*second row image rows*/
+.skincare1 img{
+
+width: 150px;
+height: 140px;
+padding :10px;
+margin-left: 10px;
+border-radius: 10px;
+margin-top:150px;
+
+
+}
+/*second row words rows*/
+.textskin2{
+width: 480px;
+margin-left:-1px;
+}
+
+.textskin2 p{
+width: 500px;
+height: 150px;
+padding :5px;
+margin-top: 10px;
+font-size: 10px;
+margin-bottom: -60px;
+
+
+}
+
+
 
   .headingskin{
     font-size: 18px;
@@ -3093,7 +3217,7 @@ font-size: 12px;
 
       width: 100%;
     }
-
+/*whole section*/
     .contentsec{
 
       width: 40%;
@@ -3103,6 +3227,7 @@ font-size: 12px;
         
         height: 300px;
         object-fit: cover;
+        margin-bottom: -51px;
     }
 
     /*Index swiper */
@@ -3293,7 +3418,7 @@ font-size: 12px;
 
   width: 100px;
   display: flex;
-  margin-top: -18px;
+  margin-top: -130px;
   margin-left: 00px;
  
  
@@ -3369,6 +3494,7 @@ margin-left: 10px;
   width: 450px;
   margin-left:-12px;
   
+  margin-bottom: 18px;
 
 }
 .textskin2 p{
