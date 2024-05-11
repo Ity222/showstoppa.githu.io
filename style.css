@@ -343,9 +343,9 @@ header{
     font-size: 13px;
   }
   .textskin2{
-    width: 1400px;
+    width: 1300px;
     display: flex;
-    margin-left:80px;
+    margin-left:40px;
     
   }
 
@@ -365,7 +365,7 @@ header{
   .textskin2 p{
     width: 500px;
     height: 2px;
-    padding :10px;
+    padding :50px;
     margin-top: -70px;
     margin-left: 10px;
   }
@@ -2392,7 +2392,8 @@ margin-left: 55%;
 
     .contservice img {
 
-      height:240px ;
+      height:280px ;
+      
     }
 
 .broucher p{
@@ -2440,6 +2441,7 @@ margin-left: 55%;
         
         height: 220px;
         object-fit: cover;
+        margin-bottom: 40px;
     }
 
    
@@ -2632,14 +2634,15 @@ font-size: 13px;
     width: 500px;
     display: flex;
     margin-top: -50px;
-    margin-left: -10PX;
+    margin-left: 40PX;
   }
   .skincare2 img{
 
-    width: 260px;
-  height: 260px;
-  padding :45px;
+    width: 220px;
+  height: 160px;
+  padding :20px;
   margin-bottom: -10px;
+  margin-top: 10px;
     
   
     
@@ -2675,6 +2678,22 @@ font-size: 13px;
       
   
       
+    }
+    .textskin2{
+      width: 650px;
+      margin-left:-10px;
+      margin-bottom: -100px;
+    }
+    
+    .textskin2 p{
+      width: 500px;
+      height: 150px;
+      padding :5px;
+      margin-top: -10px;
+      margin-bottom: 50px;
+      font-size: 10px;
+      
+  
     }
     .textskin1{
       width: 650px;
@@ -3042,6 +3061,21 @@ font-size: 12px;
 
   }
 
+  .textskin2{
+    width: 480px;
+    margin-left:-10px;
+  }
+  
+  .textskin2 p{
+    width: 500px;
+    height: 150px;
+    padding :5px;
+    margin-top: -10px;
+    font-size: 10px;
+    
+
+  }
+
   /*First image rows*/
   .skincar2{
 
@@ -3123,7 +3157,7 @@ margin-bottom: -60px;
 
   .headingskin{
     font-size: 18px;
-    margin-top: 150px;
+    margin-top: 80px;
   }
 
   /*product*/
@@ -3492,9 +3526,8 @@ margin-left: 10px;
 
 .textskin2{
   width: 450px;
-  margin-left:-12px;
-  
-  margin-bottom: 18px;
+    margin-left:-12px;
+    margin-bottom: -72px;
 
 }
 .textskin2 p{
@@ -3503,6 +3536,8 @@ height: 170px;
 padding :10px;
 margin-top: 0px;
 size: 10px;
+margin-left: 10px;
+margin-bottom: 40px;
 
 
 }
@@ -3968,7 +4003,26 @@ margin-left: 5%;
         
     
     }
-   
+    .skincare2{
+      width: 10px;
+      height: 150px;
+      padding :40px;
+     margin-left: -18px;
+     
+      
+    }
+.skincare2 img{
+
+  width: 150px;
+  height: 150px;
+  padding :30px;
+ margin-left: -18px;
+ margin-top: -20px;
+ border-radius: 10px;
+ 
+  
+  
+}
     .skincare1 img{
       width: 10px;
       height: 150px;
@@ -3990,11 +4044,7 @@ margin-left: 5%;
   
 }
 
-.textskin2{
 
-  margin-bottom: 60px;
-  width: 380px;
-}
 .textskin3{
   
   margin-bottom: 170px;
@@ -4020,13 +4070,20 @@ margin-left: 5%;
  
  
 }
+.skincare2{
+  
+ margin-left: -40px;
+
+ 
+  
+}
 
 .skincare2 img{
   width: 150px;
   height: 150px;
   padding :30px;
- margin-left: -18px;
- margin-top: -70px;
+ margin-left: -20px;
+ margin-top: -30px;
  border-radius: 10px;
  
   
@@ -4052,8 +4109,24 @@ margin-left: 5%;
    height: 20px;
     
 }
+.textskin2 p{
+  width: 400px;
+  height: 150px;
+  padding :9px;
+  margin-top: -30px;
+  font-size: 8px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
 
+}
 
+.textskin2{
+  width: 380px;
+  margin-left:-10px;
+  
+
+}
 .textskin{
     width: 380px;
     margin-left:-10px;
